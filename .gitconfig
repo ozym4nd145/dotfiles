@@ -1,0 +1,18 @@
+[user]
+	name = ozym4nd145
+	email = ozym4nd145@outlook.com
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[credential]
+	helper = cache --timeout=14400
+[push]
+	default = simple
+[http]

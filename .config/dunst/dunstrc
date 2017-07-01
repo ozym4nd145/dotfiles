@@ -1,0 +1,71 @@
+#002b36;
+#073642;
+#586e75;
+#657b83;
+#839496;
+#93a1a1;
+#eee8d5;
+#fdf6e3;
+#b58900;
+#cb4b16;
+#dc322f;
+#d33682;
+#6c71c4;
+#268bd2;
+#2aa198;
+#859900;
+
+[global]
+    alignment = left
+    allow_markup = yes
+    bounce_freq = 0
+    browser = /usr/bin/firefox -new-tab
+    dmenu = /usr/bin/dmenu -p dunst:
+    follow = none
+    font = Terminus (TTF) 12
+    format = "<b>%s</b>\n%b"
+    # geometry [{width}]x{height}][+/-{x}+/-{y}]
+    geometry = "0-10+10"
+    history_length = 20
+    horizontal_padding = 8
+    transparency = 30
+    idle_threshold = 0
+    ignore_newline = no
+    indicate_hidden = yes
+    line_height = 0
+    monitor = 0
+    padding = 8
+    separator_color = frame
+    separator_height = 1
+    show_age_threshold = 60
+    show_indicators = yes
+    shrink = no
+    sort = yes
+    startup_notification = false
+    sticky_history = no
+    word_wrap = yes
+
+[frame]
+    width = 1
+    color = "#002b36"
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+grave
+    context = ctrl+shift+period
+
+[urgency_low]
+    background = "#fdf6e3"
+    foreground = "#268bd2"
+    timeout = 5
+
+[urgency_normal]
+    background = "#2aa198"
+    foreground = "#fdf6e3"
+    timeout = 5
+
+[urgency_critical]
+    background = "#801515"
+    foreground = "#D46A6A"
+    timeout = 0

@@ -1,0 +1,577 @@
+# timestamp | duration | file | instruction | dir | modtime | etag | size | fileId | status | errorString | http result code | other size | other modtime | other etag | other fileId | other instruction
+#=#=#=# Syncrun started 2017-04-13T22:27:55
+#=#=#=#=# Propagation starts 2017-04-13T22:27:56 (last step: 1204 msec, total: 1204 msec)
+16:57:56||.config|INST_NEW|Up|1492102482||0|0221503751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.bashrc|INST_NEW|Up|1492093237|c6a25dbff6838a1914849a0b6ceb75f9|5374|0221503851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.gitconfig|INST_NEW|Up|1489258379|13c78cc71360745bd8b975b6eeb86e05|297|0221503951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.bash_history|INST_NEW|Up|1492101570|24fde6c7bbf6e39392e2052dfdff3d72|160548|0221504051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.i3|INST_NEW|Up|1492093245||4096|0221504151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.config/dconf|INST_NEW|Up|1491929223||0|0221504251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.solarized|INST_NEW|Up|1455606383||0|0221504351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.config/dunst|INST_NEW|Up|1474381520||0|0221504451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.config/touchegg|INST_NEW|Up|1478002887||0|0221504551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.i3/blocks|INST_NEW|Up|1480328880||8192|0221504651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.config/dconf/user|INST_NEW|Up|1491929223|d2b1575f6575517840129abed02bef17|42542|0221504751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.config/dunst/dunstrc|INST_NEW|Up|1474381520|c946511c8dc7d65640e59da772ec4216|1292|0221504951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:56||.i3/battery|INST_NEW|Up|1469631011|0f115455adea1fdcc00ea2f1b28d0793|1653|0221504851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.config/touchegg/touchegg.conf|INST_NEW|Up|1478002887|a55cfe9be023824c5c75fb6fe0cfd470|1360|0221505051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/audio|INST_NEW|Up|1480325198|1719b259de61e45a70551f665c068845|558|0221505151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/bandwidth|INST_NEW|Up|1480325198|6f2498a845c22038a2c0ad0302ece0b7|2480|0221505251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/battery|INST_NEW|Up|1480325198|11db658184a5e040960f42ff702ed007|619|0221505351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.config/touchegg/old.conf|INST_NEW|Up|1473700443|3f9b114395dfa36e4cfc0f7aac50bc45|2787|0221505451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/bash|INST_NEW|Up|1480330810|1938f12fdd5b1125defefe4e286439c9|29|0221505551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/brightness|INST_NEW|Up|1480325198|1ce8d3f8d88f808bc1e68727c9455b57|1466|0221505651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/cmus|INST_NEW|Up|1480325198|c932c0e5522be3a425a0453723aae5b7|562|0221505751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/bluetooth|INST_NEW|Up|1480325198|09b1d050f854c3e5f2c4afb5555491b7|352|0221505851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/countdown|INST_NEW|Up|1480325198|52527de28f4ed75d99b1ebb08bddd8e4|642|0221505951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/cpu|INST_NEW|Up|1480325198|134b84d44b93f37bf6cf56830f76ec0f|1161|0221506051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/datetime|INST_NEW|Up|1480325198|3c728065b65870d2d018de26d8ae2aca|123|0221506151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/cpu_usage|INST_NEW|Up|1480325138|97953cba6e17517dbb17d0b28388ef86|1300|0221506251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/disk|INST_NEW|Up|1480325138|1b636a26c482aa1abf7cc4e19be10c0b|1059|0221506351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/display|INST_NEW|Up|1480325198|be837799853fa2ceb6bbc8705db89670|1868|0221506451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/feed|INST_NEW|Up|1480325198|cd201a7121a94b3a7cd356bd97e3325c|933|0221506551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/iface|INST_NEW|Up|1480325138|8b740db1a4a5efa27c410b04f73f642c|1982|0221506651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/firewall|INST_NEW|Up|1480325198|417631f90d9a70c3f5eeb4d7a80c4e40|427|0221506751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/ip-address|INST_NEW|Up|1480325198|5ed9e09e3c08f3ae3868a36c6dd52092|163|0221506851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/keyindicator|INST_NEW|Up|1480325138|79e5ef67e29c3d3894e3a52ffb20668e|1923|0221506951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/keymap|INST_NEW|Up|1480325198|74f385c631814cdb2d7588726d450775|761|0221507051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/keystate|INST_NEW|Up|1480325198|7e53abb4615ba21a7794d05820666748|537|0221507151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/launcher|INST_NEW|Up|1480325198|27da1257ec93e09e2154c21d61b4d130|797|0221507251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/load|INST_NEW|Up|1480325198|ce8daa3a7bdf76f15997de2ccd0c44cd|360|0221507351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/locale|INST_NEW|Up|1480325198|c5d2b24d6399e6e8c321d907460b9dce|230|0221507451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:57||.i3/blocks/load_average|INST_NEW|Up|1480325138|2b1e4118490f1d5bcad079c67e4a7cdd|987|0221507551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/memory|INST_NEW|Up|1480325198|7cd4fe13935d51b779ae77e52ffe1a50|2230|0221507651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/network|INST_NEW|Up|1480325198|a98f08e87ae048836f4e3326fd2395c5|479|0221507751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/mediaplayer|INST_NEW|Up|1480325138|4eb4c63ddd493ca26f1b876070ac1c30|2409|0221507851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/mail|INST_NEW|Up|1480325198|bff78d499a890a9e9705b4211a0b15c5|1279|0221507951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/openvpn|INST_NEW|Up|1480325138|0a5cf51802abf0fecb4e5197220aa868|4653|0221508051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/notifier|INST_NEW|Up|1480325198|4b75e1ae7856482293bb4b02e1da5d73|7096|0221508151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/packages|INST_NEW|Up|1480325198|91f3154e2ec8c33ef75355a750a015e4|275|0221508251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/microphone|INST_NEW|Up|1480325198|dcac71954943f0b05e650b6ad9ac15a1|562|0221508351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/process|INST_NEW|Up|1480325198|8f13eae1ce634ed1339c69961d1cfe32|285|0221508451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/scroll|INST_NEW|Up|1480328872|c35ee72457826f4c41b16ae014f4e34e|1625|0221508551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/playerctl|INST_NEW|Up|1480325198|f7d94347718015edfc06da80b515d950|1038|0221508651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/ssid|INST_NEW|Up|1480325198|e3e9a215d4b287339996e38b5f07a8a2|443|0221508751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/space|INST_NEW|Up|1480325198|64a8147506f72a74bd0c56effda81c37|937|0221508851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/usb|INST_NEW|Up|1480325198|5773dd698582c846da3861432c17a218|218|0221508951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/trash|INST_NEW|Up|1480325198|15003b34c6a96709de8208107b81839f|716|0221509051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/temperature|INST_NEW|Up|1480325198|4aad96c9e199ac6388a0b5512acc469f|918|0221509151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/user|INST_NEW|Up|1480325198|a396e7b533737dc5cba247a3d5030d45|98|0221509251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/volume|INST_NEW|Up|1480325138|6fbc7610e03d5ad62139a6da5518a467|2756|0221509351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/vpn|INST_NEW|Up|1480325198|866dbf12e7ccfaa57f452a0d1577d77f|113|0221509451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/weather|INST_NEW|Up|1480325198|4b126d4d9e0e1c30266f4763761c1cca|1856|0221509551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/wifi|INST_NEW|Up|1480325138|33ac29d33efe220b01bdf8cd47e246f6|1685|0221509651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/webcam|INST_NEW|Up|1480325198|eb949b22e332c4b17b1906f0ba67bf50|234|0221509751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/blocks/window|INST_NEW|Up|1480325198|33f239d43de36a214f714016b146ce17|223|0221509851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/config|INST_NEW|Up|1492093245|25cd2b73de838d40efab59dda9acd40c|12317|0221509951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/i3blocks.conf|INST_NEW|Up|1481219480|716ea55333fde5bd8d9a2226cd2ac490|3344|0221510051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/compton.conf|INST_NEW|Up|1474119852|777478d9f996cebf3f1ba9207c433cab|8810|0221510151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.solarized/dircolors-solarized|INST_NEW|Up|1492092811||4096|0221510251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/i3-fancy|INST_NEW|Up|1469880482||4096|0221510351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.solarized/tmux-colors-solarized|INST_NEW|Up|1455606389||4096|0221510451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.solarized/gnome-terminal-colors-solarized|INST_NEW|Up|1455606349||4096|0221510551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.vimrc|INST_NEW|Up|1476603526|dd142d7ce6b7ac64c974cf1c8ab48e6e|2849|0221510651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.i3/i3-fancy/icons|INST_NEW|Up|1469779429||4096|0221510751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.tmux.conf|INST_NEW|Up|1492069274|0a02f63237f0db79c0d6ca2b5dd805a0|3131|0221510851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:58||.solarized/dircolors-solarized/.git|INST_NEW|Up|1455606280||4096|0221510951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/lock|INST_NEW|Up|1469880482|c03045338865ba078c91f66d0edddc43|4082|0221511051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/lockdark.png|INST_NEW|Up|1469779429|06b3517b795281319ee977ba233b315a|1847|0221511151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/lock.png|INST_NEW|Up|1469779429|dd91dbe8126d3ec98550706c51332f16|1387|0221511251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/circlelock.png|INST_NEW|Up|1469779429|6b53f8a4c2a2020e76b18689d48ac114|2381|0221511351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/circlelockclear.png|INST_NEW|Up|1469779429|6b5c4d36048a6bf7ac72476f0a981d04|2493|0221511451de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/circlelockcleardark.png|INST_NEW|Up|1469779429|7d6b65ff2e041e6c94957971e7d457af|2518|0221511551de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/circlelockdark.png|INST_NEW|Up|1469779429|081c6da15dc60c41ef4daa11773f5c13|2433|0221511651de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/token.png|INST_NEW|Up|1469779429|d6544f0036e429eb7650da571c3655a3|2551|0221511751de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.i3/i3-fancy/icons/tokendark.png|INST_NEW|Up|1469779429|55ff3c63c5b23f00c083656408b469f2|2159|0221511851de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/HEAD|INST_NEW|Up|1455606280|23f14d341e71048d3882c7d10d6a4887|23|0221511951de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/branches|INST_NEW|Up|1455606273||0|0221512051de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/config|INST_NEW|Up|1455606280|06067a9790c20b1b3556745f18848411|288|0221512151de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/description|INST_NEW|Up|1455606273|45d71a3ce5135af27c5a4ea0b3635f5a|73|0221512251de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/index|INST_NEW|Up|1455606280|196bd3b22592a8b1fbbbbc9ac56c37af|1592|0221512351de4953c7122|4||201|0|0|||INST_NONE|
+16:57:59||.solarized/dircolors-solarized/.git/hooks|INST_NEW|Up|1455606273||4096|0221512451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/commit-msg.sample|INST_NEW|Up|1455606273|3a3944711b8c221d8587341bcb77d8fa|896|0221512551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/post-update.sample|INST_NEW|Up|1455606273|2f95fa25965dcf423482455698f85154|189|0221512651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/pre-commit.sample|INST_NEW|Up|1455606273|65e28ab04ea7416cd302429a78c06e88|1642|0221512751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/pre-applypatch.sample|INST_NEW|Up|1455606273|0fc798af16cc3cf8a837f44ead6a2c00|398|0221512851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/pre-push.sample|INST_NEW|Up|1455606273|b1084e487d08ba5c83f30d2ceb1c299c|1352|0221512951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/applypatch-msg.sample|INST_NEW|Up|1455606273|1a375b5af4a6491593bf523df532d7d8|452|0221513051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/pre-rebase.sample|INST_NEW|Up|1455606273|cc66757885f20f10a7e7fac2486a1e53|4898|0221513151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/prepare-commit-msg.sample|INST_NEW|Up|1455606273|184fcab5b3fab0ae6c7bd0bf985af599|1239|0221513251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/info|INST_NEW|Up|1455606273||0|0221513351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/logs|INST_NEW|Up|1455606280||0|0221513451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/objects|INST_NEW|Up|1455606273||0|0221513551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/hooks/update.sample|INST_NEW|Up|1455606273|dcb800ee7383a8624650e976a937309d|3611|0221513651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/packed-refs|INST_NEW|Up|1455606280|4267c15b8937f1fec9c1b49ff300cd26|107|0221513751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/info/exclude|INST_NEW|Up|1455606273|b42b3b21caf2105b2efb59d9036aa4be|240|0221513851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/logs/HEAD|INST_NEW|Up|1455606280|9c694e75b7433ae54efe98cdd0382d7a|191|0221513951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:01||.solarized/dircolors-solarized/.git/refs|INST_NEW|Up|1455606280||0|0221514051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/logs/refs|INST_NEW|Up|1455606280||0|0221514151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/Makefile|INST_NEW|Up|1455606280|f5399a302acbc80b67d6fc158f821c04|284|0221514251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/objects/pack|INST_NEW|Up|1455606280||4096|0221514351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/objects/info|INST_NEW|Up|1455606273||0|0221514451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/README.md|INST_NEW|Up|1455606280|d9f9c5596c29a59901be54d9df459a7c|20174|0221514551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/logs/refs/heads|INST_NEW|Up|1455606280||0|0221514651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/refs/heads|INST_NEW|Up|1455606280||0|0221514751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/logs/refs/remotes|INST_NEW|Up|1455606280||0|0221514851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/refs/remotes|INST_NEW|Up|1455606280||0|0221514951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/objects/pack/pack-ce85f9ecba11ead008f54acdff9db05f341da381.idx|INST_NEW|Up|1455606280|4efa65a636a280ecb78a8980f7cb75b8|14148|0221515051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/logs/refs/heads/master|INST_NEW|Up|1455606280|ade734bd751f7a3c13263f1d67a57969|191|0221515151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/refs/remotes/origin|INST_NEW|Up|1455606280||0|0221515251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/refs/tags|INST_NEW|Up|1455606273||0|0221515351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/refs/heads/master|INST_NEW|Up|1455606280|2399d1b26dc420450f4d1a4abedcb166|41|0221515451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/logs/refs/remotes/origin|INST_NEW|Up|1455606280||0|0221515551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/refs/remotes/origin/HEAD|INST_NEW|Up|1455606280|3e7c0ad628ea2aacff47eb5155ba1668|32|0221515651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/dircolors.256dark|INST_NEW|Up|1467886393|1a80bb49c08cf30341e28e730f119598|10225|0221515751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/dircolors.ansi-dark|INST_NEW|Up|1455606280|9e3551d227b7a39f322202addd942aad|10225|0221515851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/dircolors.ansi-light|INST_NEW|Up|1455606280|a7e80e335b1f7ac4008e9c1c85cecc3e|10189|0221516051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/.git/logs/refs/remotes/origin/HEAD|INST_NEW|Up|1455606280|e37122eba490fe49b4f32cbcce9a88cf|191|0221515951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/dircolors.ansi-universal|INST_NEW|Up|1455606280|57f9b2e8830e1977108dd48f06d70dde|10141|0221516151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:04||.solarized/dircolors-solarized/img|INST_NEW|Up|1455606280||4096|0221516251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/test-directory.tar.bz2|INST_NEW|Up|1455606280|ca24f30433270cfb676d6115c49599b0|939|0221516351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git|INST_NEW|Up|1455606349||4096|0221516451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/LICENSE.mkd|INST_NEW|Up|1455606349|0173b75e5a5ea3ffc536fcd99b5da7cb|1077|0221516551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-PuTTY-dark_default.png|INST_NEW|Up|1455606280|94a463fbd6a222cb2675851ed7061d98|25495|0221516651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/dircolors.256dark.png|INST_NEW|Up|1455606280|8962e70a0a7915fe2c998e3d29d9322f|224723|0221516751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-PuTTY-light_system.png|INST_NEW|Up|1455606280|7a6bc24dcca285be8a8bb8a9c957e412|25291|0221516851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-iTerm-dark-with-coreutils-installed.png|INST_NEW|Up|1455606280|9ee2697971779dd72d32fb754e8a121f|37766|0221516951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-iTerm-light.png|INST_NEW|Up|1455606280|e1811d349dbeb47b3ee37fc03a77695f|40442|0221517051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-iTerm-dark.png|INST_NEW|Up|1455606280|2f3f85d82c5168a3d346e74dc8441164|38515|0221517251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:02||.solarized/dircolors-solarized/.git/objects/pack/pack-ce85f9ecba11ead008f54acdff9db05f341da381.pack|INST_NEW|Up|1455606280|b098d48bf5fcd1653c215a574cd6da83|1731221|0221517151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-iTerm2-solarized_dark.png|INST_NEW|Up|1455606280|cd0c0a6c8e4091109a006e3372909e28|37546|0221517351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-iTerm2-bold-options.png|INST_NEW|Up|1455606280|5ab925d40542dc8fc1d9018b8c0e6adb|8183|0221517451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/dircolors-solarized/img/screen-dircolors-in-iTerm2-solarized_light.png|INST_NEW|Up|1455606280|20a809924478d357e29d4c707b515c86|38175|0221517551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/HEAD|INST_NEW|Up|1455606349|32987a49dc5f4ba20236e054b75c9733|23|0221517651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/branches|INST_NEW|Up|1455606344||0|0221517751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/config|INST_NEW|Up|1455606349|9fea8c513e09ddf54d6418f268ed1141|303|0221517851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/description|INST_NEW|Up|1455606344|64142be6db959079cf23f055066a4462|73|0221517951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/index|INST_NEW|Up|1455606349|29dfdbd6e54f3ecc6638957ef682026e|2128|0221518051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks|INST_NEW|Up|1455606344||4096|0221518151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/info|INST_NEW|Up|1455606344||0|0221518251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/objects|INST_NEW|Up|1455606344||0|0221518351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/packed-refs|INST_NEW|Up|1455606349|84021f0c0edf8a5823ad4d198c7a1d2d|179|0221518451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/logs|INST_NEW|Up|1455606349||0|0221518551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/applypatch-msg.sample|INST_NEW|Up|1455606344|73b3ae4d96e6d1006fa47baab6c56900|452|0221518651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/refs|INST_NEW|Up|1455606349||0|0221518751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/post-update.sample|INST_NEW|Up|1455606344|24e7fb620ff716bce7fc6223a40f0945|189|0221518851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/pre-applypatch.sample|INST_NEW|Up|1455606344|d4f0201b164b807f085d99551c55bff6|398|0221518951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/commit-msg.sample|INST_NEW|Up|1455606344|9db0c7e99efb75b70c8fb90a2f9423bb|896|0221519051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/pre-push.sample|INST_NEW|Up|1455606344|ed4c7c667fa31a1c10a5b1679069ab54|1352|0221519151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/pre-commit.sample|INST_NEW|Up|1455606344|abe65c6968ee091a26912edbe5d589f7|1642|0221519251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/pre-rebase.sample|INST_NEW|Up|1455606344|a8e51e8fb039b29e678f4b76621e9fd2|4898|0221519351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/prepare-commit-msg.sample|INST_NEW|Up|1455606344|9b0d64aaf4374b7b20e1438e75fc84cf|1239|0221519451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/hooks/update.sample|INST_NEW|Up|1455606344|175d11a47070067e44ed8ccde1f8e33f|3611|0221519551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/info/exclude|INST_NEW|Up|1455606344|49284650ef9e80f3a8717e26c26e9bc0|240|0221519651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:05||.solarized/gnome-terminal-colors-solarized/.git/logs/HEAD|INST_NEW|Up|1455606349|056fb33a1b2e309999407dcd98575422|206|0221519751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs|INST_NEW|Up|1455606349||0|0221519851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/objects/info|INST_NEW|Up|1455606344||0|0221519951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/objects/pack|INST_NEW|Up|1455606349||4096|0221520051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/heads|INST_NEW|Up|1455606349||0|0221520151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/tags|INST_NEW|Up|1455606344||0|0221520251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs/heads|INST_NEW|Up|1455606349||0|0221520351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs/remotes|INST_NEW|Up|1455606349||0|0221520451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/objects/pack/pack-9f078cad902b97a6a27844e47f8884fbce966de9.idx|INST_NEW|Up|1455606349|121268ee7f413dae9ce5b3e37196fc5f|9780|0221520551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/remotes|INST_NEW|Up|1455606349||0|0221520651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/objects/pack/pack-9f078cad902b97a6a27844e47f8884fbce966de9.pack|INST_NEW|Up|1455606349|2a498575ccd1dac9b68ab7fc283e71eb|66148|0221520751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/heads/master|INST_NEW|Up|1455606349|dac9af9c7c5422b183d30c2486acf2cd|41|0221520851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs/heads/master|INST_NEW|Up|1455606349|bcbbe284b184325132e6eeefa1392c50|206|0221520951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs/remotes/origin|INST_NEW|Up|1455606349||0|0221521051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/README.mkd|INST_NEW|Up|1455606349|4e75e894afc81b2cb1e5a1ecaf18518d|3834|0221521151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors|INST_NEW|Up|1455606349||0|0221521251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/install.sh|INST_NEW|Up|1455606349|4b56322e71341405191962cdda285d5a|4855|0221521351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/set_dark.sh|INST_NEW|Up|1455606349|9c9892baccc665ab6178b6cf13346495|93|0221521451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/remotes/origin|INST_NEW|Up|1455606349||0|0221521551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark|INST_NEW|Up|1455606349||4096|0221521651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/set_light.sh|INST_NEW|Up|1455606349|95583c0cdd3e5ca5fe5f04266d561e46|94|0221521751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative|INST_NEW|Up|1455606349||4096|0221521851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/light|INST_NEW|Up|1455606349||4096|0221521951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/logs/refs/remotes/origin/HEAD|INST_NEW|Up|1455606349|27a0025375df8afdd7040aaa051de099|206|0221522051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark/README.md|INST_NEW|Up|1455606349|5178f6c8ed56367ff8b003beb1257b12|76|0221522151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/.git/refs/remotes/origin/HEAD|INST_NEW|Up|1455606349|bbeb233a84952cdf4aba83953cb5f77f|32|0221522251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark/bd_color|INST_NEW|Up|1455606349|51307ec1320fd9323c7c7083ee328d5b|14|0221522351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark/bg_color|INST_NEW|Up|1455606349|4b7c311b6c1775ea6715f9e046a2e632|14|0221522451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark/fg_color|INST_NEW|Up|1455606349|2ddf9890e96350de10b1c3de2abea000|14|0221522551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark/palette|INST_NEW|Up|1455606349|009c6f8f21239a8ff2cee3c26179ebc0|224|0221522651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative/README.md|INST_NEW|Up|1455606349|7e5b3893b11cc9c7bd93d3b53c31c41a|155|0221522751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative/bd_color|INST_NEW|Up|1455606349|4cca2da0795905c40bee64e5cb1cbe05|14|0221522851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative/palette|INST_NEW|Up|1455606349|85e4f52820456b26e76cd3391d750f2c|224|0221523051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative/bg_color|INST_NEW|Up|1455606349|eba81c8f1b33355be6916a0fab1dea89|14|0221522951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/dark_alternative/fg_color|INST_NEW|Up|1455606349|3b1fc6e0c518213ed73b77f5e5eaf7e9|14|0221523151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:06||.solarized/gnome-terminal-colors-solarized/colors/light/README.md|INST_NEW|Up|1455606349|b0a57efe4b4d731adad255c6a5821fa8|77|0221523251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/colors/light/bg_color|INST_NEW|Up|1455606349|f8f7ca5b43fcd3e15951ca3663a3ce80|14|0221523351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/colors/light/bd_color|INST_NEW|Up|1455606349|dbbae8b6eb8238817cf7fce920f6fdb8|14|0221523451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/colors/light/palette|INST_NEW|Up|1455606349|de7e9f027d64e060a30aed0c6f778de9|224|0221523551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/src|INST_NEW|Up|1455606349||4096|0221523651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/colors/light/fg_color|INST_NEW|Up|1455606349|d4709f4be1efca4b88fbc9536f13c0b4|14|0221523751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/README.md|INST_NEW|Up|1455606389|fb004a6edca81a158235356a50920e64|1963|0221523851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git|INST_NEW|Up|1455606389||4096|0221523951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/tmuxcolors-256.conf|INST_NEW|Up|1455606389|2114cc829df79d596f852607e81a191a|1063|0221524051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/src/dircolors.sh|INST_NEW|Up|1455606349|a282847e084eea5802f6b658863eed5b|2907|0221524151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/tmuxcolors-dark.conf|INST_NEW|Up|1455606389|8b9cd4f0192d04b89e3a57a4b6d832e3|1035|0221524251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/src/profiles.sh|INST_NEW|Up|1455606349|f7fef5db628232b8d613918cf91710f1|2697|0221524351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/src/set_theme_default_profile.sh|INST_NEW|Up|1455606349|a0400c03576c18b90417b72d2507e260|518|0221524451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/gnome-terminal-colors-solarized/src/tools.sh|INST_NEW|Up|1455606349|14fc3ed645770fc9c52b4e53783ce5a9|720|0221524551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/HEAD|INST_NEW|Up|1455606389|cfa2149c6d437f48185d5ee6d95b97d2|23|0221524651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/config|INST_NEW|Up|1455606389|8e787017b572ad546afe8b69e2b73ffa|290|0221524751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/branches|INST_NEW|Up|1455606383||0|0221524851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/description|INST_NEW|Up|1455606383|9072e2fb9140dac4a7b8dddc6394d7eb|73|0221524951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/index|INST_NEW|Up|1455606389|fe44f0264837a437cfe9701103f0761c|528|0221525051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/info|INST_NEW|Up|1455606383||0|0221525151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks|INST_NEW|Up|1455606383||4096|0221525251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/packed-refs|INST_NEW|Up|1455606389|ab08d34738b8a97078dbc16dedfcfa87|107|0221525351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/objects|INST_NEW|Up|1455606389||8192|0221525451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/logs|INST_NEW|Up|1455606389||0|0221525551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/info/exclude|INST_NEW|Up|1455606383|bf04fd5f184d15c6fcaefa2896de31ac|240|0221525651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/refs|INST_NEW|Up|1455606389||0|0221525851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/applypatch-msg.sample|INST_NEW|Up|1455606383|aaf65236333c0d8a21831547bf9fcb32|452|0221525751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/commit-msg.sample|INST_NEW|Up|1455606383|b80e1e2fba5094240d7752bdc818fd13|896|0221525951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/pre-applypatch.sample|INST_NEW|Up|1455606383|fc877a747fb99000dd33e9ea9df990e3|398|0221526051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/post-update.sample|INST_NEW|Up|1455606383|008a9a5e40f93002cef3c85d2fb90697|189|0221526151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/pre-commit.sample|INST_NEW|Up|1455606383|23900aa3516240e691be4e0a08ca7c65|1642|0221526251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/pre-push.sample|INST_NEW|Up|1455606383|385c0a275d3da2cff85c56fcd7ef7600|1352|0221526351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/pre-rebase.sample|INST_NEW|Up|1455606383|820d95866120862e3bd9097ce2cf537b|4898|0221526451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/prepare-commit-msg.sample|INST_NEW|Up|1455606383|5ee5ed29436da9c08edc39a9ff5eb7e5|1239|0221526551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/HEAD|INST_NEW|Up|1455606389|ed094180b2889928f6b463b83e735b09|193|0221526651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:07||.solarized/tmux-colors-solarized/.git/hooks/update.sample|INST_NEW|Up|1455606383|93c819feb8f46d66d4e8954b35ec0f99|3611|0221526751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/00|INST_NEW|Up|1455606389||0|0221526851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/06|INST_NEW|Up|1455606386||0|0221526951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/09|INST_NEW|Up|1455606389||0|0221527051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs|INST_NEW|Up|1455606389||0|0221527151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/10|INST_NEW|Up|1455606385||0|0221527251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/11|INST_NEW|Up|1455606386||0|0221527351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/06/4fe39061cd5dd8d23e1cde2e33453ac1edcb78|INST_NEW|Up|1455606386|850e8bb78da794730c03655c1bc074a4|911|0221527451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/09/b5f2f69e1596c6ff66fb187ea6bdc385845152|INST_NEW|Up|1455606389|64cc29953f6a56c449449a1cadab676e|186|0221527551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/00/39fac7f09cd95d266061dc01bfafbd30953b63|INST_NEW|Up|1455606389|b0851a53f476bf8592a8b71eb23bcad7|94|0221527651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs/heads|INST_NEW|Up|1455606389||0|0221527751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/10/a324d03b4cd4d50f6774df11910fffec1d0630|INST_NEW|Up|1455606385|0ef1c123090b854c0dab41eea673866c|299|0221527851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs/remotes|INST_NEW|Up|1455606389||0|0221527951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/11/5ad227b32098704aa981c4675bd5aa03400d9b|INST_NEW|Up|1455606386|6e4ee5c4b3a503ffff367fba46211a55|507|0221528051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/13|INST_NEW|Up|1455606386||0|0221528151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/14|INST_NEW|Up|1455606389||0|0221528251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs/remotes/origin|INST_NEW|Up|1455606389||0|0221528451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs/heads/master|INST_NEW|Up|1455606389|a18285ff800bbf53deba8ea696fd277b|193|0221528351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/19|INST_NEW|Up|1455606389||0|0221528551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1a|INST_NEW|Up|1455606385||0|0221528651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/14/28d1394cc627ef504df0950ab493f7689469c1|INST_NEW|Up|1455606389|8643823713d79d34e402dedfb6f8afae|305|0221528751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/13/5f0fb981f8d9809c53d33fb8f69f9d9f8e170b|INST_NEW|Up|1455606386|6f78c62ee410c9c6b004a2af0eecd3d0|370|0221528851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1c|INST_NEW|Up|1455606389||0|0221529051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/logs/refs/remotes/origin/HEAD|INST_NEW|Up|1455606389|c6b9a4b80e503900385929f88be2d589|193|0221528951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1a/6c5fae9414cb6f7ec13e233f995fbc1c32a3a8|INST_NEW|Up|1455606385|2ef5eacb6b171127e82b707d981df9cc|296|0221529151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1e|INST_NEW|Up|1455606385||0|0221529351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/19/0df177cf5f7d7eb0f3c483bb5677c4989c474b|INST_NEW|Up|1455606389|b75a3ccfcdb753deeafdcdec92940150|260572|0221529251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1c/0851c1a0f061c4ff3093efbab39d12fe18c27f|INST_NEW|Up|1455606389|5efd207ec30431e9d5663aba404e3329|121|0221529451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/24|INST_NEW|Up|1455606386||0|0221529551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/26|INST_NEW|Up|1455606389||0|0221529751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/1e/1c5f6e66d488d75ccc687975b9be6fa687c7ed|INST_NEW|Up|1455606385|40333e3d87b359aebf1a429d3eec1ad3|277|0221529651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/29|INST_NEW|Up|1455606389||0|0221529851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/28|INST_NEW|Up|1455606385||0|0221529951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/24/a5520ed3c8b0992ae6de607c399f94a603871c|INST_NEW|Up|1455606386|0cee0942a65e2047408c61d54817f0e2|370|0221530051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:08||.solarized/tmux-colors-solarized/.git/objects/2a|INST_NEW|Up|1455606389||0|0221530151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/26/f99121544a2852872ce5ad82e08b13cafd89da|INST_NEW|Up|1455606389|a40a964b4501c69a512140dfe3f50535|121|0221530251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/29/a9a5149177e218dfbb12da22c0e743537e03a8|INST_NEW|Up|1455606389|3770337c6db373785f973ac68be39f1f|186|0221530351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/2e|INST_NEW|Up|1455606389||0|0221530451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/31|INST_NEW|Up|1455606385||0|0221530651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/28/8130a8c2fc6357eb937497b8e12ff9fd07a3bc|INST_NEW|Up|1455606385|46cdff2a275d47ae83494b222b079a33|168|0221530551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/2a/9bd963d063db2c795de30dee9be8e402ea05b8|INST_NEW|Up|1455606389|d4bde887237e54f1fff2257fc32d706d|121|0221530751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/35|INST_NEW|Up|1455606385||0|0221530851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/37|INST_NEW|Up|1455606389||4096|0221531051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/2e/063d37e324a968e9c747558307c2b673e96e22|INST_NEW|Up|1455606389|cd9106393d6847b8994fbb9f51bb69a9|510|0221530951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/31/40ca156b53b44383a6a03f6fe8bc38a31975e4|INST_NEW|Up|1455606385|9d0afb1153cf392e7adc17c48b52acae|190|0221531151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/38|INST_NEW|Up|1455606385||0|0221531251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/35/9d90fcb53737459dff49fff94ee9fec1cda6d8|INST_NEW|Up|1455606385|da5bdc2168a033d601db59a92c1a5cf6|233|0221531351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/37/67f77e99d79e8962ce0d659d0a1ef955ef5fcb|INST_NEW|Up|1455606389|e0bcded8d77eb405c99a9b8aafdee3fa|830|0221531451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3b|INST_NEW|Up|1455606385||0|0221531551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/37/c6f1d3991b6f36ad45783d5e814f04b8d4c59d|INST_NEW|Up|1455606385|d56d9613b4be1fb39f8798ddc0a72c4d|627|0221531651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3c|INST_NEW|Up|1455606385||0|0221531751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/38/ede4414a570e4927b635f959b88fb1473193e4|INST_NEW|Up|1455606385|ed0ccb4a20c24be0d752c964d629eccf|176|0221531851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3d|INST_NEW|Up|1455606385||0|0221531951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3f|INST_NEW|Up|1455606389||4096|0221532051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3b/8441b57d649b8a30206a4220d4c6c8166a3b10|INST_NEW|Up|1455606385|d7cbdcf3f3a128ad3f9909b8eac594ae|165|0221532151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/4b|INST_NEW|Up|1455606389||0|0221532251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3c/dcb9a600e86bb9296b08637bc7347ca5634418|INST_NEW|Up|1455606385|3e19b80e5d7847f2914b9373f1483f7b|227|0221532351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/50|INST_NEW|Up|1455606385||0|0221532451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3d/a7ed33ac15385c4381d7b2b6b3acdaad8ac8c8|INST_NEW|Up|1455606385|e10b4c7c04401144a6f87a18a347b7be|230|0221532551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3f/a2ec5599d3c1e973a1d326e978cf99d4735582|INST_NEW|Up|1455606386|67b9c587ab73fbbdf391ec4550b74fe5|330|0221532651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/3f/bd1fd8a59a60bb02e91f94c5fd6efb87305b87|INST_NEW|Up|1455606389|98e88a0764153d534168be6ab00e31f9|714|0221532751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/51|INST_NEW|Up|1455606389||0|0221532951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904|INST_NEW|Up|1455606389|2d77b9c761c9916a9227749dd54981a5|15|0221532851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/50/299c1dd6407bc415360a6173de247b86fab9b8|INST_NEW|Up|1455606385|1bbaa98d2b9c9fd7c8db018a60f1dffb|229|0221533051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/52|INST_NEW|Up|1455606389||0|0221533151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/65|INST_NEW|Up|1455606389||0|0221533251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/60|INST_NEW|Up|1455606385||0|0221533351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/73|INST_NEW|Up|1455606389||0|0221533551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/51/33aa990f04e5b5cee387bddcb0f741a8f465a4|INST_NEW|Up|1455606389|dbfde9aea4c587ae8d0221800b6a888a|185|0221533451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/52/7500d5ae54db63f4e73b7f6a36f935e235265e|INST_NEW|Up|1455606389|09da8bc259e865897729ca25ac3b0e9c|131|0221533651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/65/7c0bdd4c078096469d6b0870d1b0dd7d74cc00|INST_NEW|Up|1455606389|69449a370d9fa45082275a19f83eb599|357|0221533751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/60/d096df3cb2706709b7d0eb5270e48a8316e5da|INST_NEW|Up|1455606385|edd9986797f216d52f17c6fa1de7e67c|176|0221533851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:09||.solarized/tmux-colors-solarized/.git/objects/71|INST_NEW|Up|1455606389||0|0221533951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/73/eeff8910b7004f006ceb80a482bc00a0719bbd|INST_NEW|Up|1455606389|14913fbf9e3d5426b499c9588a6d013c|336|0221534051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/76|INST_NEW|Up|1455606386||0|0221534151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/77|INST_NEW|Up|1455606389||0|0221534251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/79|INST_NEW|Up|1455606389||0|0221534351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/7e|INST_NEW|Up|1455606385||0|0221534451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/83|INST_NEW|Up|1455606385||0|0221534551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/76/7152a757ee6d3b777e69c0ea7a9224e2bcd465|INST_NEW|Up|1455606386|a700fa143687bf81b45e325ffff679f0|331|0221534651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/71/fabef38a01a64db88fbf9e99ed735fd5c5c611|INST_NEW|Up|1455606389|dc784bf7ddfaa1aef04b2e08e235be0f|620|0221534751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/77/67913179a52e19675851fcb605e701e21acdb6|INST_NEW|Up|1455606389|dcb8d2634fce86ebe6c3fd5e34202437|122|0221534851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/79/8fd6726065ee616bd5690d2903cf78270dccf3|INST_NEW|Up|1455606389|5851950cc601f05cdb4414445a9265ce|573|0221534951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/7e/05923e7cb0d557a0cd903adbb9e8a42bf24ae0|INST_NEW|Up|1455606385|a083f33725ac58a5c2ee2c3264d87993|308|0221535051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/83/8254f7c69f7fc8fcdca834e76399da7f935c86|INST_NEW|Up|1455606385|56acbc02978a1124d1bd4a11c67a850e|202|0221535151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/8d|INST_NEW|Up|1455606389||4096|0221535251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/91|INST_NEW|Up|1455606385||0|0221535351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/9b|INST_NEW|Up|1455606385||0|0221535451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/9c|INST_NEW|Up|1455606386||0|0221535551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/a3|INST_NEW|Up|1455606389||0|0221535651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/8d/9edb6f1ace46c655b042532e10c5059d273178|INST_NEW|Up|1455606385|009817dc360ada11b7d6c2b1010055f0|182|0221535751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/a8|INST_NEW|Up|1455606389||4096|0221535851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/8d/d33495f824a8e7f5db85c21973b44c596dc409|INST_NEW|Up|1455606389|88b868087848aabe2f784779da8646cb|219|0221535951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/91/c50cf61112601307fec7124a7d7413480460ca|INST_NEW|Up|1455606385|e682399f23564ebe1adab070b61d5a8c|247|0221536051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/9c/ab0d26476445cf453a7dd4f1c4d9d87213ff31|INST_NEW|Up|1455606386|e8c988f733019d4996e53edcb8180f0a|319|0221536151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/9b/a146b00399878ba3cda05bad885e5067845e11|INST_NEW|Up|1455606385|c0802bf3bbcf649c018af4ed8d6b1c0b|169|0221536251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/a8/209c6a8fbe15aef8b59ae22ff2afb712c2af28|INST_NEW|Up|1455606389|3bab3a5482cb2e08644e7d492be75c29|130|0221536351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/a8/bca5699bc299b4e328b2e01b9cd770be2b4b93|INST_NEW|Up|1455606386|b03cadab833023a5956cd51e3b81003e|364|0221536451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/ab|INST_NEW|Up|1455606389||0|0221536551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b4|INST_NEW|Up|1455606389||0|0221536651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b5|INST_NEW|Up|1455606385||0|0221536751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b6|INST_NEW|Up|1455606389||4096|0221536851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/ba|INST_NEW|Up|1455606385||0|0221536951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/a3/3ff9f16f155c758cf9f74d0646209a34027661|INST_NEW|Up|1455606389|2fa8de432bb7e95bfbfb60aa4204978f|220|0221537051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/ab/209337103fdf6b6743c9d7b71b71788fe16c9a|INST_NEW|Up|1455606389|c2bf2cfa336bef67cbb7ccdb874dbf45|131|0221537151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b4/c8f8a0a116f0d941a905f8943e8ec1b86e99ec|INST_NEW|Up|1455606389|109b3809a2201b4e4324774050823f08|131|0221537251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b5/fc16d49eed3e228202442fdca7c66e7549bb3f|INST_NEW|Up|1455606385|ffead48a9cc8d7c72f222ee942e6aa30|245|0221537351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b6/34cf6f6e26ac13d3236d82dd305f2d0ed8a8ee|INST_NEW|Up|1455606389|04b067cd7442808f5f010e5dcad2cd1c|360|0221537451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/b6/0d13c869dd4942cb3fcf4f97960161a0727f19|INST_NEW|Up|1455606385|d53341e11e03b7e04f711263a8fc299c|170|0221537551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/ba/e897747a93117f5a22c34169d9a2550f979164|INST_NEW|Up|1455606385|fcaaaf5dc88b8b91b6fc8864201c7eda|286|0221537651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:10||.solarized/tmux-colors-solarized/.git/objects/bf|INST_NEW|Up|1455606389||0|0221537751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c2|INST_NEW|Up|1455606385||0|0221537851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c6|INST_NEW|Up|1455606386||4096|0221537951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/ca|INST_NEW|Up|1455606389||0|0221538051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c8|INST_NEW|Up|1455606385||0|0221538151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/bf/25fbc3e81fb32541e4cb738b1bf24d05fcaf5a|INST_NEW|Up|1455606389|7f9ef7f48d056fe2720c3ca735ad6674|220|0221538251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/cb|INST_NEW|Up|1455606385||0|0221538351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c2/b70535e59a9447b55a17bf71396f9ec5095a05|INST_NEW|Up|1455606385|9e86eb1bffe765bf638532f1b6ea1895|205|0221538451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c6/4219f5219540e318ba696f6a9b6a41da79962a|INST_NEW|Up|1455606385|b12f4330f03831b13189bfcd7c82a6a3|237|0221538551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c6/a85fc5a1bd337e05a210f736a8d49ae3213461|INST_NEW|Up|1455606386|fe77464b83f74075a5ebb0fd3c53ed0b|363|0221538651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/c8/4905ca4ee902835811f88c4955e592799aa12c|INST_NEW|Up|1455606385|78f939b71e3d12d043d6a1bff0e4245b|248|0221538751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/ca/762706733547198bcb96539963a20bdc91bfa2|INST_NEW|Up|1455606389|d2e34244ba57686565c8b62e3a72589b|336|0221538851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/cb/37a148154dbdc1fc5e3c4647289d1f9ac617cd|INST_NEW|Up|1455606385|851e0a52c430877f0e4cb19796dc2ead|169|0221538951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/cc|INST_NEW|Up|1455606385||0|0221539051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/d4|INST_NEW|Up|1455606385||0|0221539151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/d7|INST_NEW|Up|1455606385||0|0221539251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/da|INST_NEW|Up|1455606389||0|0221539351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e0|INST_NEW|Up|1455606385||0|0221539451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e7|INST_NEW|Up|1455606385||0|0221539551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/cc/71055bf3d5bc3567ef0457e63a5fc027af52b5|INST_NEW|Up|1455606385|6d76ea95ed27371cae3e280fbf22d975|251|0221539651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/d4/684ec6ec42582e0f84333ed49b38fe29f3a440|INST_NEW|Up|1455606385|2f009efe56080afe656bfd0faa02b5a3|217|0221539751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/d7/b6b7d553c5c00c23890bba9395894ee61a1f14|INST_NEW|Up|1455606385|f30e04bcf547cd940e30ff4b3e7d1279|277|0221539851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/da/e9c2d6ec600546c5511872666488b0827b8bc2|INST_NEW|Up|1455606389|3648f3e53c3b23316241ebb9c32fb503|443|0221539951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e0/809ab9e78d707e1e0481c0d4c790c3fd9eeac3|INST_NEW|Up|1455606385|33d62285941214eab7a9f91dd70eb3c3|571|0221540051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e7/be2098d751ed358eb41ff9ab24fafb9aa4d61c|INST_NEW|Up|1455606385|347292fd8e901f73c52cedda6625b393|281|0221540151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e9|INST_NEW|Up|1455606389||0|0221540251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/eb|INST_NEW|Up|1455606389||0|0221540351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/f4|INST_NEW|Up|1455606389||0|0221540451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/fb|INST_NEW|Up|1455606385||4096|0221540551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/info|INST_NEW|Up|1455606383||0|0221540651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/pack|INST_NEW|Up|1455606383||0|0221540751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/e9/200badbf9b3eb397cf1aa11591f46c8be94745|INST_NEW|Up|1455606389|d15be2f2175627cb883ae7d245c9d882|219|0221540851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/eb/7ede440843455f06c2df0ec317a01f52350886|INST_NEW|Up|1455606389|2fe386eccf0a434ad07cc031af5e31f0|336|0221540951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/f4/384786c11229a74f74bb85d9cc9ddad714859a|INST_NEW|Up|1455606389|c2ad658841a80eaf190b49eb50fdd440|151|0221541051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/fb/b43466b2f6e589d1001567efb085135c25fbed|INST_NEW|Up|1455606385|6ef41a8334e1f234e14c2fe3ae883d40|195|0221541151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/objects/fb/191940ec8116ab6972bae697f66d8ae9a55141|INST_NEW|Up|1455606385|f5acfe76f43c9a8470cad62619352cad|312|0221541251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/refs/heads|INST_NEW|Up|1455606389||0|0221541351de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/refs/remotes|INST_NEW|Up|1455606389||0|0221541451de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/.git/refs/tags|INST_NEW|Up|1455606383||0|0221541551de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/tmuxcolors-light.conf|INST_NEW|Up|1455606389|1e817645e673eee2dc9d896ded5f83b2|1033|0221541651de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||.solarized/tmux-colors-solarized/tmuxcolors.tmux|INST_NEW|Up|1455606389|b2fdc5d4eed721c01db7e5ed1414aec9|496|0221541751de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||.solarized/tmux-colors-solarized/.git/refs/heads/master|INST_NEW|Up|1455606389|5675b39669832d24dcb2821d17ff4cd5|41|0221541851de4953c7122|4||201|0|0|||INST_NONE|
+16:58:11||.solarized/tmux-colors-solarized/tmuxcolors.png|INST_NEW|Up|1455606389|12bcde19c87ca0c28afd8071955fc917|261407|0221541951de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||installed_programs.dat|INST_NEW|Up|1458050684|8b332038d38018cc23816abda5121224|3220|0221542151de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||.solarized/tmux-colors-solarized/.git/refs/remotes/origin|INST_NEW|Up|1455606389||0|0221542051de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||systemlog.txt|INST_NEW|Up|1476862271|5c8b23873c40d95a92a8f735d20be40f|2936|0221542251de4953c7122|4||201|0|0|||INST_NONE|
+16:58:12||.solarized/tmux-colors-solarized/.git/refs/remotes/origin/HEAD|INST_NEW|Up|1455606389|76f1928a200505a0d2fd193b739945b9|32|0221542351de4953c7122|4||201|0|0|||INST_NONE|
+#=#=#=# Syncrun finished 2017-04-13T22:28:12 (last step: 15959 msec, total: 17162 msec)
+#=#=#=# Syncrun started 2017-04-13T22:28:36
+#=#=#=#=# Propagation starts 2017-04-13T22:28:47 (last step: 11920 msec, total: 11920 msec)
+#=#=#=# Syncrun finished 2017-04-13T22:28:48 (last step: 214 msec, total: 12134 msec)
+#=#=#=# Syncrun started 2017-04-13T22:29:17
+#=#=#=#=# Propagation starts 2017-04-13T22:29:19 (last step: 1773 msec, total: 1773 msec)
+#=#=#=# Syncrun finished 2017-04-13T22:29:19 (last step: 202 msec, total: 1976 msec)
+#=#=#=# Syncrun started 2017-04-13T22:49:49
+#=#=#=#=# Propagation starts 2017-04-13T22:49:51 (last step: 2425 msec, total: 2425 msec)
+#=#=#=# Syncrun finished 2017-04-13T22:49:51 (last step: 275 msec, total: 2701 msec)
+#=#=#=# Syncrun started 2017-04-14T10:25:33
+#=#=#=#=# Propagation starts 2017-04-14T10:25:33 (last step: 314 msec, total: 314 msec)
+04:55:33||.bash_history|INST_SYNC|Up|1492108505|c8942435bc6cf16e2d225959428eb640|165316|0221504051de4953c7122|4||204|160548|1492101570|24fde6c7bbf6e39392e2052dfdff3d72|0221504051de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-14T10:25:34 (last step: 707 msec, total: 1021 msec)
+#=#=#=# Syncrun started 2017-04-14T10:26:29
+#=#=#=#=# Propagation starts 2017-04-14T10:26:29 (last step: 242 msec, total: 242 msec)
+#=#=#=# Syncrun finished 2017-04-14T10:26:30 (last step: 385 msec, total: 628 msec)
+#=#=#=# Syncrun started 2017-04-14T12:26:33
+#=#=#=#=# Propagation starts 2017-04-14T12:26:37 (last step: 3862 msec, total: 3862 msec)
+#=#=#=# Syncrun finished 2017-04-14T12:26:37 (last step: 227 msec, total: 4089 msec)
+#=#=#=# Syncrun started 2017-04-14T13:32:23
+#=#=#=#=# Propagation starts 2017-04-14T13:32:24 (last step: 230 msec, total: 230 msec)
+#=#=#=# Syncrun finished 2017-04-14T13:32:24 (last step: 765 msec, total: 996 msec)
+#=#=#=# Syncrun started 2017-04-14T19:36:02
+#=#=#=#=# Propagation starts 2017-04-14T19:36:03 (last step: 295 msec, total: 295 msec)
+#=#=#=# Syncrun finished 2017-04-14T19:36:03 (last step: 571 msec, total: 867 msec)
+#=#=#=# Syncrun started 2017-04-14T21:36:08
+#=#=#=#=# Propagation starts 2017-04-14T21:36:08 (last step: 316 msec, total: 316 msec)
+#=#=#=# Syncrun finished 2017-04-14T21:36:09 (last step: 452 msec, total: 768 msec)
+#=#=#=# Syncrun started 2017-04-14T23:36:13
+#=#=#=#=# Propagation starts 2017-04-14T23:36:13 (last step: 184 msec, total: 184 msec)
+#=#=#=# Syncrun finished 2017-04-14T23:36:13 (last step: 171 msec, total: 356 msec)
+#=#=#=# Syncrun started 2017-04-15T17:43:36
+#=#=#=#=# Propagation starts 2017-04-15T17:43:38 (last step: 1934 msec, total: 1934 msec)
+12:13:38||.bash_history|INST_SYNC|Up|1492235401|c8e4bc29351330ecf783f556df59736c|165682|0221504051de4953c7122|4||204|165316|1492108505|c8942435bc6cf16e2d225959428eb640|0221504051de4953c7122|INST_NONE|
+12:13:38||.config/dconf/user|INST_SYNC|Up|1492248395|b7e2f053ecd9bcfcd9ef2262ac0bd301|42542|0221504751de4953c7122|4||204|42542|1491929223|d2b1575f6575517840129abed02bef17|0221504751de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-15T17:43:39 (last step: 708 msec, total: 2641 msec)
+#=#=#=# Syncrun started 2017-04-15T17:44:30
+#=#=#=#=# Propagation starts 2017-04-15T17:44:31 (last step: 471 msec, total: 471 msec)
+#=#=#=# Syncrun finished 2017-04-15T17:44:31 (last step: 218 msec, total: 689 msec)
+#=#=#=# Syncrun started 2017-04-15T19:04:10
+#=#=#=#=# Propagation starts 2017-04-15T19:04:10 (last step: 148 msec, total: 148 msec)
+#=#=#=# Syncrun finished 2017-04-15T19:04:10 (last step: 440 msec, total: 589 msec)
+#=#=#=# Syncrun started 2017-04-15T19:44:06
+#=#=#=#=# Propagation starts 2017-04-15T19:44:08 (last step: 1487 msec, total: 1487 msec)
+#=#=#=# Syncrun finished 2017-04-15T19:44:08 (last step: 356 msec, total: 1843 msec)
+#=#=#=# Syncrun started 2017-04-15T21:45:34
+#=#=#=#=# Propagation starts 2017-04-15T21:45:35 (last step: 1524 msec, total: 1524 msec)
+#=#=#=# Syncrun finished 2017-04-15T21:45:35 (last step: 292 msec, total: 1816 msec)
+#=#=#=# Syncrun started 2017-04-15T21:52:11
+#=#=#=#=# Propagation starts 2017-04-15T21:52:12 (last step: 1179 msec, total: 1179 msec)
+#=#=#=# Syncrun finished 2017-04-15T21:52:13 (last step: 230 msec, total: 1409 msec)
+#=#=#=# Syncrun started 2017-04-15T23:52:18
+#=#=#=#=# Propagation starts 2017-04-15T23:52:18 (last step: 159 msec, total: 159 msec)
+#=#=#=# Syncrun finished 2017-04-15T23:52:18 (last step: 341 msec, total: 500 msec)
+#=#=#=# Syncrun started 2017-04-16T01:52:22
+#=#=#=#=# Propagation starts 2017-04-16T01:52:22 (last step: 159 msec, total: 159 msec)
+#=#=#=# Syncrun finished 2017-04-16T01:52:23 (last step: 253 msec, total: 413 msec)
+#=#=#=# Syncrun started 2017-04-16T03:52:27
+#=#=#=#=# Propagation starts 2017-04-16T03:52:32 (last step: 5148 msec, total: 5148 msec)
+#=#=#=# Syncrun finished 2017-04-16T03:52:33 (last step: 210 msec, total: 5358 msec)
+#=#=#=# Syncrun started 2017-04-16T03:52:36
+#=#=#=#=# Propagation starts 2017-04-16T03:52:39 (last step: 2834 msec, total: 2834 msec)
+#=#=#=# Syncrun finished 2017-04-16T03:52:40 (last step: 487 msec, total: 3320 msec)
+#=#=#=# Syncrun started 2017-04-16T14:59:53
+#=#=#=#=# Propagation starts 2017-04-16T14:59:55 (last step: 2197 msec, total: 2197 msec)
+#=#=#=# Syncrun finished 2017-04-16T14:59:56 (last step: 222 msec, total: 2420 msec)
+#=#=#=# Syncrun started 2017-04-16T15:09:53
+#=#=#=#=# Propagation starts 2017-04-16T15:09:53 (last step: 153 msec, total: 153 msec)
+#=#=#=# Syncrun finished 2017-04-16T15:09:54 (last step: 303 msec, total: 457 msec)
+#=#=#=# Syncrun started 2017-04-16T17:26:57
+#=#=#=#=# Propagation starts 2017-04-16T17:26:57 (last step: 174 msec, total: 174 msec)
+#=#=#=# Syncrun finished 2017-04-16T17:26:57 (last step: 304 msec, total: 479 msec)
+#=#=#=# Syncrun started 2017-04-16T17:48:08
+#=#=#=#=# Propagation starts 2017-04-16T17:48:08 (last step: 189 msec, total: 189 msec)
+#=#=#=# Syncrun finished 2017-04-16T17:48:08 (last step: 339 msec, total: 528 msec)
+#=#=#=# Syncrun started 2017-04-16T23:45:18
+#=#=#=#=# Propagation starts 2017-04-16T23:45:19 (last step: 184 msec, total: 184 msec)
+#=#=#=# Syncrun finished 2017-04-16T23:45:19 (last step: 317 msec, total: 501 msec)
+#=#=#=# Syncrun started 2017-04-17T00:21:13
+#=#=#=#=# Propagation starts 2017-04-17T00:21:14 (last step: 251 msec, total: 251 msec)
+18:51:14||.config/dconf/user|INST_SYNC|Up|1492345055|a63e149bb4c0a26f8bd3b8c1ab9e32c0|42542|0221504751de4953c7122|4||204|42542|1492248395|b7e2f053ecd9bcfcd9ef2262ac0bd301|0221504751de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-17T00:21:14 (last step: 581 msec, total: 833 msec)
+#=#=#=# Syncrun started 2017-04-17T00:21:53
+#=#=#=#=# Propagation starts 2017-04-17T00:21:53 (last step: 307 msec, total: 307 msec)
+#=#=#=# Syncrun finished 2017-04-17T00:21:53 (last step: 213 msec, total: 520 msec)
+#=#=#=# Syncrun started 2017-04-17T02:21:54
+#=#=#=#=# Propagation starts 2017-04-17T02:21:54 (last step: 150 msec, total: 150 msec)
+#=#=#=# Syncrun finished 2017-04-17T02:21:54 (last step: 232 msec, total: 383 msec)
+#=#=#=# Syncrun started 2017-04-17T12:34:47
+#=#=#=#=# Propagation starts 2017-04-17T12:34:47 (last step: 255 msec, total: 255 msec)
+#=#=#=# Syncrun finished 2017-04-17T12:34:48 (last step: 473 msec, total: 728 msec)
+#=#=#=# Syncrun started 2017-04-17T13:16:56
+#=#=#=#=# Propagation starts 2017-04-17T13:16:56 (last step: 970 msec, total: 970 msec)
+#=#=#=# Syncrun finished 2017-04-17T13:16:57 (last step: 530 msec, total: 1500 msec)
+#=#=#=# Syncrun started 2017-04-17T15:55:29
+#=#=#=#=# Propagation starts 2017-04-17T15:55:29 (last step: 273 msec, total: 273 msec)
+#=#=#=# Syncrun finished 2017-04-17T15:55:30 (last step: 835 msec, total: 1108 msec)
+#=#=#=# Syncrun started 2017-04-17T16:10:25
+#=#=#=#=# Propagation starts 2017-04-17T16:10:25 (last step: 153 msec, total: 153 msec)
+#=#=#=# Syncrun finished 2017-04-17T16:10:25 (last step: 433 msec, total: 586 msec)
+#=#=#=# Syncrun started 2017-04-17T16:14:33
+#=#=#=#=# Propagation starts 2017-04-17T16:14:33 (last step: 151 msec, total: 151 msec)
+#=#=#=# Syncrun finished 2017-04-17T16:14:33 (last step: 341 msec, total: 493 msec)
+#=#=#=# Syncrun started 2017-04-17T16:38:11
+#=#=#=#=# Propagation starts 2017-04-17T16:38:12 (last step: 203 msec, total: 203 msec)
+#=#=#=# Syncrun finished 2017-04-17T16:38:12 (last step: 335 msec, total: 539 msec)
+#=#=#=# Syncrun started 2017-04-17T18:38:24
+#=#=#=#=# Propagation starts 2017-04-17T18:38:26 (last step: 1356 msec, total: 1356 msec)
+#=#=#=# Syncrun finished 2017-04-17T18:38:26 (last step: 386 msec, total: 1742 msec)
+#=#=#=# Syncrun started 2017-04-17T20:21:34
+#=#=#=#=# Propagation starts 2017-04-17T20:21:35 (last step: 407 msec, total: 407 msec)
+14:51:35||.bash_history|INST_SYNC|Up|1492434470|1428909fc75ad3954b8843b98154ae3b|165694|0221504051de4953c7122|4||204|165682|1492235401|c8e4bc29351330ecf783f556df59736c|0221504051de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-17T20:21:40 (last step: 5631 msec, total: 6038 msec)
+#=#=#=# Syncrun started 2017-04-17T21:07:35
+#=#=#=#=# Propagation starts 2017-04-17T21:07:35 (last step: 205 msec, total: 205 msec)
+#=#=#=# Syncrun finished 2017-04-17T21:07:36 (last step: 533 msec, total: 738 msec)
+#=#=#=# Syncrun started 2017-04-17T21:15:52
+#=#=#=#=# Propagation starts 2017-04-17T21:15:52 (last step: 243 msec, total: 243 msec)
+#=#=#=# Syncrun finished 2017-04-17T21:15:52 (last step: 289 msec, total: 532 msec)
+#=#=#=# Syncrun started 2017-04-18T06:22:45
+#=#=#=#=# Propagation starts 2017-04-18T06:22:45 (last step: 206 msec, total: 206 msec)
+#=#=#=# Syncrun finished 2017-04-18T06:22:46 (last step: 597 msec, total: 803 msec)
+#=#=#=# Syncrun started 2017-04-18T12:40:30
+#=#=#=#=# Propagation starts 2017-04-18T12:40:32 (last step: 1088 msec, total: 1088 msec)
+#=#=#=# Syncrun finished 2017-04-18T12:40:32 (last step: 601 msec, total: 1690 msec)
+#=#=#=# Syncrun started 2017-04-18T14:13:07
+#=#=#=#=# Propagation starts 2017-04-18T14:13:07 (last step: 650 msec, total: 650 msec)
+#=#=#=# Syncrun finished 2017-04-18T14:13:08 (last step: 350 msec, total: 1000 msec)
+#=#=#=# Syncrun started 2017-04-18T15:22:00
+#=#=#=#=# Propagation starts 2017-04-18T15:22:00 (last step: 158 msec, total: 158 msec)
+09:52:00||.config/dconf/user|INST_SYNC|Up|1492440971|46edc01639409775a004250b9b401450|42542|0221504751de4953c7122|4||204|42542|1492345055|a63e149bb4c0a26f8bd3b8c1ab9e32c0|0221504751de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-18T15:22:01 (last step: 631 msec, total: 790 msec)
+#=#=#=# Syncrun started 2017-04-18T15:23:07
+#=#=#=#=# Propagation starts 2017-04-18T15:23:07 (last step: 315 msec, total: 315 msec)
+#=#=#=# Syncrun finished 2017-04-18T15:23:07 (last step: 331 msec, total: 647 msec)
+#=#=#=# Syncrun started 2017-04-18T22:24:12
+#=#=#=#=# Propagation starts 2017-04-18T22:24:12 (last step: 206 msec, total: 206 msec)
+#=#=#=# Syncrun finished 2017-04-18T22:24:12 (last step: 270 msec, total: 476 msec)
+#=#=#=# Syncrun started 2017-04-19T07:44:16
+#=#=#=#=# Propagation starts 2017-04-19T07:44:16 (last step: 268 msec, total: 268 msec)
+#=#=#=# Syncrun finished 2017-04-19T07:44:16 (last step: 353 msec, total: 621 msec)
+#=#=#=# Syncrun started 2017-04-19T10:04:40
+#=#=#=#=# Propagation starts 2017-04-19T10:04:40 (last step: 313 msec, total: 313 msec)
+#=#=#=# Syncrun finished 2017-04-19T10:04:41 (last step: 435 msec, total: 749 msec)
+#=#=#=# Syncrun started 2017-04-19T10:12:26
+#=#=#=#=# Propagation starts 2017-04-19T10:12:27 (last step: 287 msec, total: 287 msec)
+#=#=#=# Syncrun finished 2017-04-19T10:12:27 (last step: 340 msec, total: 628 msec)
+#=#=#=# Syncrun started 2017-04-19T13:42:37
+#=#=#=#=# Propagation starts 2017-04-19T13:42:37 (last step: 186 msec, total: 186 msec)
+#=#=#=# Syncrun finished 2017-04-19T13:42:37 (last step: 308 msec, total: 494 msec)
+#=#=#=# Syncrun started 2017-04-19T14:19:19
+#=#=#=#=# Propagation starts 2017-04-19T14:19:19 (last step: 155 msec, total: 155 msec)
+#=#=#=# Syncrun finished 2017-04-19T14:19:19 (last step: 300 msec, total: 456 msec)
+#=#=#=# Syncrun started 2017-04-24T13:21:08
+#=#=#=#=# Propagation starts 2017-04-24T13:21:08 (last step: 468 msec, total: 468 msec)
+07:51:08||.bash_history|INST_SYNC|Up|1492895675|ee98d48fb806d4ef42bf6065c0a5dc25|204826|0221504051de4953c7122|4||204|165694|1492434470|1428909fc75ad3954b8843b98154ae3b|0221504051de4953c7122|INST_NONE|
+07:51:08||.config/dconf/user|INST_SYNC|Up|1492888330|56ab681697196dc67c04179339f22d2d|42534|0221504751de4953c7122|4||204|42542|1492440971|46edc01639409775a004250b9b401450|0221504751de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-04-24T13:21:09 (last step: 708 msec, total: 1176 msec)
+#=#=#=# Syncrun started 2017-05-09T21:17:15
+#=#=#=#=# Propagation starts 2017-05-09T21:17:15 (last step: 376 msec, total: 376 msec)
+15:47:15||.bashrc|INST_SYNC|Up|1492922575|dfe0bd8f8fc67360a37df9985de61b6f|5374|0221503851de4953c7122|4||204|5374|1492093237|c6a25dbff6838a1914849a0b6ceb75f9|0221503851de4953c7122|INST_NONE|
+15:47:15||.config/dconf/user|INST_SYNC|Up|1494321619|e8413b56c7837a4e7bc9a1bd61dcf1a2|42534|0221504751de4953c7122|4||204|42534|1492888330|56ab681697196dc67c04179339f22d2d|0221504751de4953c7122|INST_NONE|
+15:47:15||.bash_history|INST_SYNC|Up|1494325920|4cfdcf5a511552d05e207c2bd5e6f7e9|263853|0221504051de4953c7122|4||204|204826|1492895675|ee98d48fb806d4ef42bf6065c0a5dc25|0221504051de4953c7122|INST_NONE|
+15:47:15||.config/touchegg/touchegg.conf|INST_SYNC|Up|1493929841|114f8d51a7ecd55162cab23f3bdda0be|1361|0221505051de4953c7122|4||204|1360|1478002887|a55cfe9be023824c5c75fb6fe0cfd470|0221505051de4953c7122|INST_NONE|
+#=#=#=# Syncrun finished 2017-05-09T21:17:17 (last step: 1300 msec, total: 1676 msec)
+#=#=#=# Syncrun started 2017-05-09T21:37:04
+#=#=#=#=# Propagation starts 2017-05-09T21:37:04 (last step: 283 msec, total: 283 msec)
+#=#=#=# Syncrun finished 2017-05-09T21:37:05 (last step: 273 msec, total: 557 msec)
+#=#=#=# Syncrun started 2017-05-09T22:45:50
+#=#=#=#=# Propagation starts 2017-05-09T22:45:50 (last step: 241 msec, total: 241 msec)
+#=#=#=# Syncrun finished 2017-05-09T22:45:51 (last step: 504 msec, total: 745 msec)
+#=#=#=# Syncrun started 2017-05-09T22:49:39
+#=#=#=#=# Propagation starts 2017-05-09T22:49:40 (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2017-05-09T22:49:40 (last step: 340 msec, total: 517 msec)
+#=#=#=# Syncrun started 2017-05-09T22:57:25
+#=#=#=#=# Propagation starts 2017-05-09T22:57:25 (last step: 137 msec, total: 137 msec)
+#=#=#=# Syncrun finished 2017-05-09T22:57:25 (last step: 398 msec, total: 535 msec)
+#=#=#=# Syncrun started 2017-05-10T00:01:46
+#=#=#=#=# Propagation starts 2017-05-10T00:01:46 (last step: 225 msec, total: 225 msec)
+#=#=#=# Syncrun finished 2017-05-10T00:01:47 (last step: 581 msec, total: 806 msec)
+#=#=#=# Syncrun started 2017-05-10T00:18:31
+#=#=#=#=# Propagation starts 2017-05-10T00:18:31 (last step: 173 msec, total: 173 msec)
+#=#=#=# Syncrun finished 2017-05-10T00:18:32 (last step: 353 msec, total: 527 msec)
+#=#=#=# Syncrun started 2017-05-10T01:20:02
+#=#=#=#=# Propagation starts 2017-05-10T01:20:03 (last step: 144 msec, total: 144 msec)
+#=#=#=# Syncrun finished 2017-05-10T01:20:03 (last step: 432 msec, total: 577 msec)

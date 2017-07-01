@@ -1,0 +1,352 @@
+
+#
+# Should you change your keyboard layout somewhen, delete
+# this file and re-run i3-config-wizard(1).
+#
+
+# i3 config file (v4)
+#
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+set $mod Mod4
+
+# Hybrid colors
+set $black	#002B36
+set $white	#839496
+set $gray	#CCCCCC
+set $darkgray #666666
+set $green 	#799F26
+set $blue	#4D73AA
+set $purple	#8473A7
+set $red	#B58900
+set $orange	#E59847
+set $cyan	#2AA198
+set $dark	#00252E
+set $base00 #101218
+set $base01 #1f222d
+set $base02 #252936
+set $base03 #7780a1
+set $base04 #C0C5CE
+set $base05 #d1d4e0
+set $base06 #C9CCDB
+set $base07 #ffffff
+set $base08 #ee829f
+set $base09 #f99170
+set $base0A #ffefcc
+set $base0B #a5ffe1
+set $base0C #97e0ff
+set $base0D #97bbf7
+set $base0E #c0b7f9
+set $base0F #fcc09e
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below. ISO 10646 = Unicode
+font pango:System San Francisco Display 12
+# The font above is very space-efficient, that is, it looks good, sharp and
+# clear in small sizes. However, if you need a lot of unicode glyphs or
+# right-to-left text rendering, you should instead use pango for rendering and
+# chose a FreeType font, such as:
+# font pango:DejaVu Sans Mono 10
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec i3-sensible-terminal
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+
+#Disabling titlebar
+new_window 1pixel
+
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec rofi -show run -location 0 -lines 8 -font "System San Francisco Display 12" -padding 2
+bindsym $mod+Tab exec rofi -show window -location 0 -font "System San Francisco Display 12" -padding 2
+# change focus
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+h focus left
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+h move left
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+g split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# Print screen
+set $screenshot_file_scrot '%Y-%m-%d_%H-%M-%S-$wx$h.png'
+bindsym Print exec scrot -q 80 $screenshot_file_scrot -e 'mv $f ~/Screenshots/'
+bindsym --release Shift+Print exec scrot --select -q 80 --silent $screenshot_file_scrot -e 'mv $f ~/Screenshots/'
+bindsym Ctrl+Print exec scrot --focused --quality 80 --silent $screenshot_file_scrot -e 'mv $f ~/Screenshots/'
+
+#########################################
+#Custom workspace name
+
+set $workspace1 "1: "
+set $workspace2 "2: "
+set $workspace3 "3: "
+set $workspace4 "4: "
+set $workspace5 "5: "
+set $workspace6 "6: "
+set $workspace7 "7: "
+set $workspace8 "8: "
+set $workspace9 "9: "
+set $workspace10 "10: "
+
+# switch to workspace
+bindsym $mod+1 workspace number $workspace1
+bindsym $mod+2 workspace number $workspace2
+bindsym $mod+3 workspace number $workspace3
+bindsym $mod+4 workspace number $workspace4
+bindsym $mod+5 workspace number $workspace5
+bindsym $mod+6 workspace number $workspace6
+bindsym $mod+7 workspace number $workspace7
+bindsym $mod+8 workspace number $workspace8
+bindsym $mod+9 workspace number $workspace9
+bindsym $mod+0 workspace number $workspace10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $workspace1
+bindsym $mod+Shift+2 move container to workspace number $workspace2
+bindsym $mod+Shift+3 move container to workspace number $workspace3
+bindsym $mod+Shift+4 move container to workspace number $workspace4
+bindsym $mod+Shift+5 move container to workspace number $workspace5
+bindsym $mod+Shift+6 move container to workspace number $workspace6
+bindsym $mod+Shift+7 move container to workspace number $workspace7
+bindsym $mod+Shift+8 move container to workspace number $workspace8
+bindsym $mod+Shift+9 move container to workspace number $workspace9
+bindsym $mod+Shift+0 move container to workspace number $workspace10
+
+# reload the configuration file
+# bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+
+bindsym $mod+r mode "  "
+# resize window (you can also use the mouse for that)
+mode "  " {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 05 px or 05 ppt
+        bindsym j resize grow height 05 px or 05 ppt
+        bindsym k resize shrink height 05 px or 05 ppt
+        bindsym l resize grow width 05 px or 05 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 05 px or 05 ppt
+        bindsym Down resize grow height 05 px or 05 ppt
+        bindsym Up resize shrink height 05 px or 05 ppt
+        bindsym Right resize grow width 05 px or 05 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Widow Colours
+#                         border  background text    indicator
+  client.focused          $base01 $base01    $base07 $base0F
+  client.focused_inactive $base02 $base02    $base03 $base0F
+  client.unfocused        $base02 $base02    $base03 $base0F
+  client.urgent           $base02 $base08    $base00 $base0F
+
+#class                  border  backgr. text    indicator
+#  client.focused		$white  $white  $dark    $dark
+#  client.unfocused		$dark   $dark   $white   $white
+#  client.focused_inactive	$dark   $dark   $white   $dark
+#  client.urgent			$orange $orange $dark    $white
+
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        #auto hide i3 bar
+        mode dock
+        hidden_state hide
+        #use Alt to show i3 bar
+        modifier Mod1
+	    font pango:System San Francisco Display,FontAwesome 10
+        status_command i3blocks -c ~/.i3/i3blocks.conf
+        #strip_workspace_numbers yes
+        #status_command i3status
+        colors {
+          separator #268bd2
+          statusline #839496
+          #                  border  background text
+          focused_workspace  $base01 #268bd2    $base07
+          active_workspace   $base01 $base02    $base03
+          inactive_workspace $base01 $base01    $base03
+          urgent_workspace   $base01 $base01    $base08
+        }
+}
+
+
+######################################################
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle # mute sound
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
+
+# Touchpad controls
+bindsym $mod+F9 exec ~/Coding/Scripts/toggletouchpad.sh # toggle touchpad
+bindsym $mod+F10 exec ~/Coding/Scripts/togglescreen.sh # toggle touchscreen
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+
+# Custom key Bindings
+bindsym $mod+x exec ~/.i3/i3-fancy/lock
+bindsym $mod+Shift+a exec atom
+bindsym $mod+Shift+c exec google-chrome --proxy-pac-url="http://www.cc.iitd.ernet.in/cgi-bin/proxy.btech"
+bindsym $mod+Shift+s exec subl
+bindsym $mod+Shift+x exec thunar #shorcut for filemanager
+#Add renaming workspaces function
+bindsym $mod+t exec ~/Coding/Scripts/rename_workspace.sh
+
+#binding workspace shift by using touchegg
+#also keyshortcut for left right
+bindsym $mod+Ctrl+Left workspace prev_on_output
+bindsym $mod+Ctrl+Right workspace next_on_output
+
+
+# press $mod+u to toggle between different window border modes
+bindsym $mod+u border toggle
+# press $mod+b to toggle hide/show i3-bar
+bindsym $mod+b bar mode toggle
+
+# scratchpad
+bindsym $mod+m move scratchpad
+bindsym $mod+o scratchpad show
+
+
+# Assign programs to specific workspace
+#assign [class="google-chrome"] $workspace2
+assign [class="Spotify"] $workspace10
+#assign [class="Atom"] $workspace1
+
+for_window [class="Google-chrome"] border pixel 1
+#moves all sticky notes to scratchpad
+#for_window [class="Indicator-stickynotes" title="Sticky Notes"] floating enable, move scratchpad, scratchpad show, sticky enable
+#moves my custom sticky terminal to scratchpad
+for_window [title="scratchTerminal"] border 1pixel, move scratchpad, sticky enable
+#Octave floating windows
+for_window [class="Octave-gui"] floating enable
+
+#sets $mod+n to show sticky notes
+bindsym $mod+n [class="Indicator-stickynotes" title="Sticky Notes"] scratchpad show
+#sets $mod + ` to show sticky terminal
+bindsym $mod+grave [title="scratchTerminal"] scratchpad show
+
+#Assume you are on workspace "1: www" and switch to "2: IM" using mod+2 because somebody sent you a message. You don’t need to remember where you came from now, you can just press $mod+2 again to switch back to "1: www".
+workspace_auto_back_and_forth yes
+
+#Display the popup if it belongs to the fullscreen application only.
+popup_during_fullscreen smart
+
+#disable focus follow of mouse pointer
+focus_follows_mouse no
+
+
+#opening certain programs on startup
+exec --no-startup-id google-chrome --proxy-pac-url="http://www.cc.iitd.ernet.in/cgi-bin/proxy.btech"
+exec --no-startup-id i3-msg 'workspace $workspace10; exec spotify'
+exec --no-startup-id i3-msg 'workspace $workspace3; exec terminator'
+exec --no-startup-id touchegg
+exec --no-startup-id /home/suyash1212/Coding/Scripts/TouchModify.sh
+exec --no-startup-id /home/suyash1212/Coding/Scripts/randWallpaper.sh
+exec --no-startup-id compton --config ~/.i3/compton.conf -b
+exec --no-startup-id terminator --title scratchTerminal
+#exec --no-startup-id indicator-stickynotes
+#fuzzy searching app
+exec --no-startup-id synapse -s
+
+#random input switcher kill
+exec --no-startup-id killall ibus-daemon
+
+#enabling wifi applet
+exec --no-startup-id nm-applet
+
+#enable volume applet
+exec --no-startup-id volumeicon
+#Redshift
+#exec --no-startup-id redshift-gtk -l 28.54:77.18
+#enable power management
+#exec --no-startup-id xfce4-power-manager
+
+#set autolock after 5 min of inactivity
+exec --no-startup-id xautolock -corners -000 -time 5 -locker ~/.i3/i3-fancy/lock >  ~/logs/i3/xautolock.log
+#set screen dim after 3min of inactivity
+exec xset dpms 0 0 180
+
+workspace $workspace1 output eDP1
+workspace $workspace2 output eDP1
+workspace $workspace3 output eDP1
+workspace $workspace4 output eDP1
+workspace $workspace5 output eDP1
+workspace $workspace6 output HDMI1
+workspace $workspace7 output HDMI1
+workspace $workspace8 output HDMI1
+workspace $workspace9 output HDMI1
+workspace $workspace10 output HDMI1
