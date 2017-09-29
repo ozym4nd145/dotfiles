@@ -124,20 +124,8 @@ export PS1="\w\$ "
 
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="~/.local/bin":"/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-### Proxy settings IITD
-export HTTP_PROXY="http://proxy22.iitd.ernet.in:3128"
-export http_proxy="http://proxy22.iitd.ernet.in:3128"
-export HTTPS_PROXY="https://proxy22.iitd.ernet.in:3128"
-export https_proxy="https://proxy22.iitd.ernet.in:3128"
-### Proxy settings Home
-#export HTTP_PROXY=""
-#export http_proxy=""
-#export HTTPS_PROXY=""
-#export https_proxy=""
-
 
 #Randomize background
 #sh ~/Coding/Scripts/randWallpaper.sh &
@@ -146,19 +134,33 @@ export https_proxy="https://proxy22.iitd.ernet.in:3128"
 #sh ~/Coding/Scripts/TouchModify.sh
 
 #useful exports
-export GCL="cs1150262@palasi.cse.iitd.ernet.in"
-export CSC="cs1150262@ssh1.iitd.ernet.in"
-export AWS="-i ~/.ssh/Krakon.pem ubuntu@ec2-35-165-190-157.us-west-2.compute.amazonaws.com"
-export SOCKS="-D 1337 -C -q -N $AWS"
-export CPP="g++ -g -Wall -std=c++11"
-export SUVAM="-L 5678:10.10.78.61:3128 netra@10.208.23.157"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . ~/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias open='function _open(){ echo "$1"; xdg-open $1 &>/dev/null & };_open'
-# added by Anaconda2 4.2.0 installer
-export PATH="/home/suyash1212/anaconda2/bin:$PATH"
+alias compile_opencv='function _compile_opencv(){ echo "$1"; g++ -g -Wall $1 `pkg-config --cflags --libs opencv`; };_compile_opencv'
+
 export DWN="/media/500_GB/Ubuntu/Downloads"
 export BIG="/media/500_GB"
-export OZY="10.208.23.252"
+export SEM="$BIG/Important/IITD/Sem5"
+export VISION_IP="10.208.23.233"
+export DEV_IP="10.17.51.99"
+export SUVAM_IP="10.208.23.157"
+
+export VISION="ssh -t ozym4nd145@$VISION_IP"
+export AWS="ssh -t oz@ozym4nd145.me"
+export GCL="ssh -t cs1150262@palasi.cse.iitd.ernet.in"
+export CSC="ssh -t cs1150262@ssh1.iitd.ernet.in"
+export DEVCLUB="ssh -t devclub@$DEV_IP"
+export SUVAM="ssh -t netra@$SUVAM_IP"
+
+#Proxy aliases
+alias set_proxy='source proxy_set.sh'
+alias unset_proxy='source proxy_unset.sh'
+alias node6="$HOME/Software/node-v6.11.1/bin/node"
+alias npm6="$HOME/Software/node-v6.11.1/bin/npm"
+alias sml="rlwrap sml"
+### Proxy settings IITD
+#set_proxy http://proxy22.iitd.ernet.in:3128
+unset_proxy

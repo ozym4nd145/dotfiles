@@ -1,0 +1,6 @@
+glx_bind_pixmap(0x03811677): Failed to query Pixmap info.
+win_paint_win(0x01a0001d): Failed to bind texture. Expect troubles.
+win_paint_win(0x01a0001d): Missing painting data. This is a bad sign.
+glx_bind_pixmap(0x03812ccb): Failed to query Pixmap info.
+win_paint_win(0x01a0001d): Failed to bind texture. Expect troubles.
+win_paint_win(0x01a0001d): Missing painting data. This is a bad sign.
