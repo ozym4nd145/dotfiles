@@ -1,6 +1,34 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" Don't try to be vi compatible
-set nocompatible
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdcommenter'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
@@ -35,8 +63,8 @@ set encoding=utf-8
 set mouse=a
 
 " Whitespace
-set wrap
-set textwidth=79
+"set wrap
+"set textwidth=79
 set formatoptions=tcqrn1
 set tabstop=2
 set shiftwidth=2
@@ -99,7 +127,28 @@ set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
+
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
 "colorscheme solarized
-colorscheme molokai
+"colorscheme molokai
+
+" workaround for 0~ 1~ bug
+if has("unix")
+  let s:uname = system("echo -n \"$(uname)\"")
+  if !v:shell_error && s:uname == "Linux"
+    set t_BE=
+  endif
+endif
+
+" For vim airline status bar
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
+
+" For folding
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2

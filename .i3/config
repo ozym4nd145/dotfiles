@@ -68,7 +68,7 @@ new_window 1pixel
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec rofi -show run -location 0 -lines 8 -font "System San Francisco Display 12" -padding 2
+bindsym $mod+d exec rofi -show drun -location 0 -lines 8 -font "System San Francisco Display 12" -padding 2
 bindsym $mod+Tab exec rofi -show window -location 0 -font "System San Francisco Display 12" -padding 2
 # change focus
 bindsym $mod+j focus down

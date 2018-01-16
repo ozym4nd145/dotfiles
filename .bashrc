@@ -8,11 +8,13 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth:erasedups
-# append to the history file, don't overwrite it
+# Avoid duplicates
+export HISTCONTROL=ignoredups:erasedups  
+# When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
+
+# After each command, append to the history file and reread it
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=-1
@@ -127,6 +129,9 @@ export PS1="\w\$ "
 export PATH="~/.local/bin":"/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+## PATH for global directory of NPM
+export PATH=~/.npm-global/bin:$PATH
+
 #Randomize background
 #sh ~/Coding/Scripts/randWallpaper.sh &
 
@@ -161,6 +166,29 @@ alias unset_proxy='source proxy_unset.sh'
 alias node6="$HOME/Software/node-v6.11.1/bin/node"
 alias npm6="$HOME/Software/node-v6.11.1/bin/npm"
 alias sml="rlwrap sml"
+alias compile="g++ -g -Wall -std=c++11"
 ### Proxy settings IITD
 #set_proxy http://proxy22.iitd.ernet.in:3128
 unset_proxy
+
+notes() {
+  if [ ! -z "$1" ]; then
+    # Using the "$@" here will take all parameters passed into
+    # this function so we can place everything into our file.
+    echo "passing params"
+    echo "$@" >> "$HOME/notes.md"
+  else
+    # If no arguments were passed we will take stdin and place
+    # it into our notes instead.
+    cat - >> "$HOME/notes.md"
+  fi
+}
+
+LANG="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_CTYPE="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
