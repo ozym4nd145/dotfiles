@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/500_GB/Manga/One_Piece/839" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125265Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/suyash1212/9CC6-3587/FlashSubs" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125274Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/500_GB/xkcd" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125281Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/500_GB/Sonal_didi/Sonal_Didi_Shweta" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125287Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/500_GB/Sonal%20Didi%20Marriage/sonal%20di%2024%20oct%203%20dec%205%20dec%202015/24%20oct/pic/sony%20alpha" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/500_GB/Sonal_Didi_Marriage_Pics/Dec_5" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125300Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/ntfs/Sonal_Didi_Marriage_Pics/Dec_3" added="2016-09-14T15:31:25Z" modified="2016-09-14T15:31:25Z" visited="2016-09-14T15:31:25.125306Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2016-09-14T15:31:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

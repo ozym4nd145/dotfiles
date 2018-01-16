@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		1,
+		24
+	],
+	"windowSize": [
+		1364,
+		723
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyper-materialshell\",\"hyperminimal\",\"hypercwd\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyper-materialshell\",\"1.6.1\"],[\"hyperminimal\",\"0.0.9\"],[\"hypercwd\",\"1.1.1\"]]"
+	}
+}

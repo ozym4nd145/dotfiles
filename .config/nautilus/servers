@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="sftp://cs1150262@ssh1.iitd.ac.in/home/cse/btech/cs1150262" added="2015-08-18T00:48:49Z" modified="2016-04-14T17:36:26Z" visited="2016-04-14T17:36:26Z">
+    <title>cs1150262</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-04-14T17:36:26Z" count="20"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://ch1150107@ssh1.iitd.ac.in/home/chemical/btech/ch1150107" added="2015-08-22T11:30:17Z" modified="2016-01-26T10:45:16Z" visited="2016-01-26T10:45:16Z">
+    <title>ch1150107</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-01-26T10:45:16Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="network:///" added="2015-11-06T07:09:38Z" modified="2016-01-26T10:44:11Z" visited="2016-01-26T10:44:11Z">
+    <title>Network</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-01-26T10:44:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://cs1150262@palasi.cse.iitd.ac.in/home/btech/cs1150262" added="2015-11-07T14:38:52Z" modified="2016-09-10T12:13:34Z" visited="2016-09-10T12:13:34Z">
+    <title>cs1150262</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-09-10T12:13:34Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://cs1150262@palasi.cse.iitd.ac.in/misc/buffer/Others" added="2016-02-28T16:25:32Z" modified="2016-09-10T21:48:18Z" visited="2016-09-10T21:48:18Z">
+    <title>Others</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-09-10T21:48:18Z" count="32"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://bsa.iitd.ac.in/" added="2016-03-23T11:53:53Z" modified="2016-03-23T11:53:53Z" visited="2016-03-23T11:53:53Z">
+    <title>/ on bsa.iitd.ac.in</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2016-03-23T11:53:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

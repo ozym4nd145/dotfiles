@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=syndaemon -i 1 -K -d
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=Syndaemon
+Name=Syndaemon
+Comment[en_IN]=Disable touchpad while typing, with a reasonable delay and only for tapping and scrolling
+Comment=Disable touchpad while typing, with a reasonable delay and only for tapping and scrolling

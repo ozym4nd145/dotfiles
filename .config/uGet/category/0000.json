@@ -1,0 +1,5534 @@
+{
+	"name": "New 0",
+	"type": 1,
+	"state": 0,
+	"info": {
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"folder": "\/home\/suyash1212",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"name": "google-chrome-stable_current_amd64.deb",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 45532350,
+					"total": 45532350,
+					"elapsed": 523,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1477568160,
+					"completed-time": 1477568684,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1477568184
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/dl.google.com\/linux\/direct\/google-chrome-stable_current_amd64.deb",
+					"file": "google-chrome-stable_current_amd64.deb",
+					"folder": "\/media\/500_GB\/Ubuntu\/Software",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Ubuntu\/Software\/google-chrome-stable_current_amd64.deb.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Ubuntu\/Software\/google-chrome-stable_current_amd64.deb",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "dijkstra.pptx",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 427194,
+					"total": 427194,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164382,
+					"completed-time": 1470164383,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164382
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/dijkstra.pptx",
+					"file": "dijkstra.pptx",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/dijkstra.pptx",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "skiplists.pptx",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 488042,
+					"total": 488042,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164375,
+					"completed-time": 1470164376,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164375
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/skiplists.pptx",
+					"file": "skiplists.pptx",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/skiplists.pptx",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "graphs.pptx",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 2019094,
+					"total": 2019094,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164367,
+					"completed-time": 1470164368,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164368
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/graphs.pptx",
+					"file": "graphs.pptx",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/graphs.pptx",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec18.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 285696,
+					"total": 285696,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164350,
+					"completed-time": 1470164351,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164350
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec18.ppt",
+					"file": "lec18.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec18.ppt.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec18.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec17.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 223744,
+					"total": 223744,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164350,
+					"completed-time": 1470164351,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164350
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec17.ppt",
+					"file": "lec17.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec17.ppt.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec17.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec21.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 226304,
+					"total": 226304,
+					"elapsed": 0,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164332,
+					"completed-time": 1470164332,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164332
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec21.ppt",
+					"file": "lec21.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec21.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec20.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 253440,
+					"total": 253440,
+					"elapsed": 0,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164332,
+					"completed-time": 1470164332,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164332
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec20.ppt",
+					"file": "lec20.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec20.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec15.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 204800,
+					"total": 204800,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164311,
+					"completed-time": 1470164312,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164311
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec15.ppt",
+					"file": "lec15.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec15.ppt.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec15.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec14.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 1095680,
+					"total": 1095680,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164311,
+					"completed-time": 1470164312,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164311
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec14.ppt",
+					"file": "lec14.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec14.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec13.ppt",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 691712,
+					"total": 691712,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164311,
+					"completed-time": 1470164312,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164311
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec13.ppt",
+					"file": "lec13.ppt",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec13.ppt",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec25.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 218961,
+					"total": 218961,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164251,
+					"completed-time": 1470164253,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164252
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec25.pdf",
+					"file": "lec25.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec25.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec24.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 548298,
+					"total": 548298,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164251,
+					"completed-time": 1470164252,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164251
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec24.pdf",
+					"file": "lec24.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec24.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec23.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 310230,
+					"total": 310230,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164251,
+					"completed-time": 1470164252,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164251
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec23.pdf",
+					"file": "lec23.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec23.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec22.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 514948,
+					"total": 514948,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164251,
+					"completed-time": 1470164252,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164251
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec22.pdf",
+					"file": "lec22.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec22.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec19.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 210832,
+					"total": 210832,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164217,
+					"completed-time": 1470164218,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164217
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec19.pdf",
+					"file": "lec19.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec19.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec16.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 215296,
+					"total": 215296,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164204,
+					"completed-time": 1470164205,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164204
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec16.pdf",
+					"file": "lec16.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec16.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec12.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 213219,
+					"total": 213219,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164173,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164173
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec12.pdf",
+					"file": "lec12.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec12.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec12.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec11.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 152850,
+					"total": 152850,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164173,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164173
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec11.pdf",
+					"file": "lec11.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec11.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec11.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec10.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 147923,
+					"total": 147923,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164173,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164173
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec10.pdf",
+					"file": "lec10.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec10.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec10.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec9.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 256321,
+					"total": 256321,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164172,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164172
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec9.pdf",
+					"file": "lec9.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec9.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec9.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec8.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 154435,
+					"total": 154435,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164172,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164172
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec8.pdf",
+					"file": "lec8.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec8.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec8.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec7.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 127938,
+					"total": 127938,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164172,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164172
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec7.pdf",
+					"file": "lec7.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec7.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec7.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec6.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 185380,
+					"total": 185380,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164171,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164171
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec6.pdf",
+					"file": "lec6.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec6.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec5.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 175202,
+					"total": 175202,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164171,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164171
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec5.pdf",
+					"file": "lec5.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec5.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec4.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 158412,
+					"total": 158412,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164171,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164171
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec4.pdf",
+					"file": "lec4.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec4.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec3.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 283384,
+					"total": 283384,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164170,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164170
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec3.pdf",
+					"file": "lec3.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec3.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec3.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec2.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 392026,
+					"total": 392026,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164170,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164170
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec2.pdf",
+					"file": "lec2.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec2.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec2.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec1.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 433676,
+					"total": 433676,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1470164169,
+					"completed-time": 1470164170,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1470164170
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/poorvi.cse.iitd.ac.in\/~naveen\/courses\/CS201\/lec1.pdf",
+					"file": "lec1.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec1.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Slides\/lec1.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "Hymn For The Weekend (Coldplay) 320Kbps(NiceKing.In).mp3",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 6995459,
+					"total": 6995459,
+					"elapsed": 45,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468269251,
+					"completed-time": 1468269296,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468269252
+						}
+					]
+				},
+				"common": {
+					"uri": "http:\/\/dl5.niceking.in\/files\/sfd8\/3917\/Hymn%20For%20The%20Weekend%20(Coldplay)%20320Kbps(NiceKing.In).mp3",
+					"file": "Hymn For The Weekend (Coldplay) 320Kbps(NiceKing.In).mp3",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/Hymn For The Weekend (Coldplay) 320Kbps(NiceKing.In).mp3.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/Hymn For The Weekend (Coldplay) 320Kbps(NiceKing.In).mp3",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E13_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 109172329,
+					"total": 109172329,
+					"elapsed": 743,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005425,
+					"completed-time": 1468009105,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468008374
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=d5cc87d03263ec53&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468016274&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=A76C7BDAA27EABC0059AA05F8C34DCDD17A06B48.47211CC0FC53A85403C0707D30651B8AB0EB1AA1&key=ck2&mm=30&mn=sn-a5m7zne6&ms=nxu&mt=1468001777&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E13_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E13_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E13_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E12_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 117745325,
+					"total": 117745325,
+					"elapsed": 946,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005406,
+					"completed-time": 1468008759,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1468007851
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=35d523a078437b83&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468017608&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=476AB1635F87E8A346AC97B6C462A445A86B3DE4.2F68E5C32FDA9750EC273742AF5FBB646B40C997&key=ck2&mm=30&mn=sn-a5meknes&ms=nxu&mt=1468003044&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E12_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E12_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E12_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E11_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 127204980,
+					"total": 127204980,
+					"elapsed": 742,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005390,
+					"completed-time": 1468008364,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468007628
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=6f3d9514282c2412&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468016596&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=382BDC3073D7D074FC4A8D4B00A8B73DB9E00AF1.5B744444DAFE4FDF30E906A781C8914B03C604EE&key=ck2&mm=30&mn=sn-a5mekne7&ms=nxu&mt=1468002106&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E11_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E11_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E11_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E10_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 112380312,
+					"total": 112380312,
+					"elapsed": 760,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005361,
+					"completed-time": 1468008362,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1468007627
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=7667d4a2fb77d48a&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468019313&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=F8E1CFE3764B1FEB9C9FAA020BC018AC38C0A4B.2C5597A612E4ECD4FA549FFAF4FBB898635FD41A&key=ck2&mm=30&mn=sn-a5m7zne6&ms=nxu&mt=1468004803&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E10_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E10_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E10_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E09_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 114665398,
+					"total": 114665398,
+					"elapsed": 758,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005311,
+					"completed-time": 1468007813,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468007058
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=f3eaa55be5175c53&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468016416&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=A1DEFB10B47B7F18028C4BBA485E3D5A51D792E5.7685F50258CB2787941EB835CED029ED7F3C728C&key=ck2&mm=30&mn=sn-a5mekn7k&ms=nxu&mt=1468001944&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E09_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E09_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E09_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E08_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 112423558,
+					"total": 112423558,
+					"elapsed": 754,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005289,
+					"completed-time": 1468007622,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468006886
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=bc1c7708008ab068&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468018632&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=A625D8B95D98F94C5AF5694D7DC15820DEFE8AB2.A58F5CF0719B5E5E9A530E32429C30ECD0A79492&key=ck2&mm=30&mn=sn-a5meknee&ms=nxu&mt=1468004164&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E08_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E08_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E08_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E07_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 116463018,
+					"total": 116463018,
+					"elapsed": 821,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005266,
+					"completed-time": 1468007602,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1468006851
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=a37a0a1d4578b2a5&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468017596&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=4BA72E6DCBE67BDDE24C61B113D99649CEACDF45.8561316C7FE98A7AAFCB600BF9FBF3D69F48F0FA&key=ck2&mm=30&mn=sn-a5mekn7y&ms=nxu&mt=1468003044&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E07_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E07_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E07_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E06_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 116252692,
+					"total": 116252692,
+					"elapsed": 905,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005240,
+					"completed-time": 1468007055,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468006153
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=346dd49f8c5af781&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468019361&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=7495A62E384A5D3FD7B917FCF42EE0738F3441E4.38D1A4F16FD05E851A1284E3782F75679D4C3EE2&key=ck2&mm=30&mn=sn-a5mekn7d&ms=nxu&mt=1468004803&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E06_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E06_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E06_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E05_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 120511057,
+					"total": 120511057,
+					"elapsed": 742,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005213,
+					"completed-time": 1468006868,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468006131
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=f1fc16bdaa8121b9&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468017476&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=146592981563BB28E57F97161D5466B22E299C64.5D2063A2748F8591CADEC0B8668C59779AD17B89&key=ck2&mm=30&mn=sn-a5meknes&ms=nxu&mt=1468002884&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E05_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E05_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E05_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E04_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 113490939,
+					"total": 113490939,
+					"elapsed": 899,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005186,
+					"completed-time": 1468006781,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468005896
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=c9fe444a8d2e0182&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468016473&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=15E9A0766F28D2D296D1ABF00D07D31F71C5B985.ADCC302B00C65E31710F3376C40CABE1C272B46&key=ck2&mm=30&mn=sn-a5mekn7r&ms=nxu&mt=1468001944&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E04_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E04_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E04_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E01_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 133236634,
+					"total": 133236634,
+					"elapsed": 1048,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005101,
+					"completed-time": 1468006150,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468005104
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=e5838b83df7fd1be&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468013940&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=A730EBEB37213C2C0A57D7EA9215E7D38DFDF940.91CC3D88F4B2351EFA1A18EF484AC1ABD9008B53&key=ck2&mm=30&mn=sn-a5meknee&ms=nxu&mt=1467999432&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E01_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E01_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E01_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E03_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 120915413,
+					"total": 120915413,
+					"elapsed": 959,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005167,
+					"completed-time": 1468006126,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468005179
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=e94e611f6789b13f&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468017731&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=B6A7375194B3834195F78D64C73A90EDC517585E.48D0391DE2F0274A3A570FF242E3B92C67C3306D&key=ck2&mm=30&mn=sn-a5mekn7k&ms=nxu&mt=1468003202&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E03_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E03_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E03_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S02E02_Noragami_Aragato",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 112926330,
+					"total": 112926330,
+					"elapsed": 741,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468005141,
+					"completed-time": 1468005882,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1468005152
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=199af3441d782310&itag=59&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468016234&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=7A4F8BEAC1720E54CC5E86270B26A1443EF3A171.C3217D0B04ED0D0ABF1AEA5EF6A0E5B76A6A575&key=ck2&mm=30&mn=sn-a5meknel&ms=nxu&mt=1468001621&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S02E02_Noragami_Aragato",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S02E02_Noragami_Aragato.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S02E02_Noragami_Aragato",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec36.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 119412,
+					"total": 119412,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903676,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903676
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec36.pdf",
+					"file": "lec36.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec36.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec36.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec34.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 173575,
+					"total": 173575,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903676,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903675
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec34.pdf",
+					"file": "lec34.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec34.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec34.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec35.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 124360,
+					"total": 124360,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903675,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903675
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec35.pdf",
+					"file": "lec35.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec35.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec32.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 200273,
+					"total": 200273,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903675,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903673
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec32.pdf",
+					"file": "lec32.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec32.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec32.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec33.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 150539,
+					"total": 150539,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903674,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903674
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec33.pdf",
+					"file": "lec33.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec33.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec31.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 146999,
+					"total": 146999,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903674,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903673
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec31.pdf",
+					"file": "lec31.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec31.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec31.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec30.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 104079,
+					"total": 104079,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903673,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903672
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec30.pdf",
+					"file": "lec30.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec30.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec30.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec29.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 135077,
+					"total": 135077,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903672,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903671
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec29.pdf",
+					"file": "lec29.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec29.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec29.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec25.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 291421,
+					"total": 291421,
+					"elapsed": 6,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903672,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903667
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec25.pdf",
+					"file": "lec25.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec25.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec25.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec28.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 123659,
+					"total": 123659,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903672,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903671
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec28.pdf",
+					"file": "lec28.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec28.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec28.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec27.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 98904,
+					"total": 98904,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903671,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903670
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec27.pdf",
+					"file": "lec27.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec27.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec27.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec26.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 128793,
+					"total": 128793,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903671,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903669
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec26.pdf",
+					"file": "lec26.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec26.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec26.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec19.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 260641,
+					"total": 260641,
+					"elapsed": 9,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903670,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903666
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec19.pdf",
+					"file": "lec19.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec19.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec19.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec24.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 282000,
+					"total": 282000,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903669,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903666
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec24.pdf",
+					"file": "lec24.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec24.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec24.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec23.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 225524,
+					"total": 225524,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903666,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903665
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec23.pdf",
+					"file": "lec23.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec23.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec23.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec22.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 184364,
+					"total": 184364,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903666,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903665
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec22.pdf",
+					"file": "lec22.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec22.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec22.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec21.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 155112,
+					"total": 155112,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903665,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903663
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec21.pdf",
+					"file": "lec21.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec21.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec21.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec18.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 385521,
+					"total": 385521,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903664,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903660
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec18.pdf",
+					"file": "lec18.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec18.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec18.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec20.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 413996,
+					"total": 413996,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903663,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903662
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec20.pdf",
+					"file": "lec20.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec20.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec20.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec17.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 701089,
+					"total": 701089,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903662,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903660
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec17.pdf",
+					"file": "lec17.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec17.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec17.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec12.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 275653,
+					"total": 275653,
+					"elapsed": 6,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903661,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903655
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec12.pdf",
+					"file": "lec12.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec12.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec12.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec16.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 298307,
+					"total": 298307,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903660,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903659
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec16.pdf",
+					"file": "lec16.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec16.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec16.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec15.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 231100,
+					"total": 231100,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903660,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903658
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec15.pdf",
+					"file": "lec15.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec15.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec15.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec13.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 249737,
+					"total": 249737,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903659,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903656
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec13.pdf",
+					"file": "lec13.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec13.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec13.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec14.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 248988,
+					"total": 248988,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903658,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903657
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec14.pdf",
+					"file": "lec14.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec14.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec14.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec11.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 244864,
+					"total": 244864,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903656,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903655
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec11.pdf",
+					"file": "lec11.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec11.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec11.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec10.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 264670,
+					"total": 264670,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903656,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903655
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec10.pdf",
+					"file": "lec10.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec10.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec10.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec4.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 471615,
+					"total": 471615,
+					"elapsed": 14,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903655,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903646
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec4.pdf",
+					"file": "lec4.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec4.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec4.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec9.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 343167,
+					"total": 343167,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903655,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903653
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec9.pdf",
+					"file": "lec9.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec9.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec9.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec8.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 585193,
+					"total": 585193,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903655,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903653
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec8.pdf",
+					"file": "lec8.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec8.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec8.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec7.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 282277,
+					"total": 282277,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903652,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903651
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec7.pdf",
+					"file": "lec7.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec7.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec7.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec6.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 313631,
+					"total": 313631,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903652,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903648
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec6.pdf",
+					"file": "lec6.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec6.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec6.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec3.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 670048,
+					"total": 670048,
+					"elapsed": 10,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903651,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903642
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec3.pdf",
+					"file": "lec3.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec3.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec3.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec5.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 541744,
+					"total": 541744,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903648,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903646
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec5.pdf",
+					"file": "lec5.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec5.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec5.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec2.pdf",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 546760,
+					"total": 546760,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467903641,
+					"completed-time": 1467903646,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903642
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/textofvideo.nptel.iitm.ac.in\/106102064\/lec2.pdf",
+					"file": "lec2.pdf",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec2.pdf.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg\/Assignments\/lec2.pdf",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec31.mp4",
+			"type": 2,
+			"state": 128,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 9,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1472667812,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec31.mp4",
+					"folder": "\/media\/500_GB\/Books_And_Tutorials\/DS And Algo\/Data Structure and algo_Naveen Garg",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 2,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

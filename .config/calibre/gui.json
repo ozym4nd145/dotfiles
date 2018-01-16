@@ -1,0 +1,237 @@
+{
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "\u2217 \u2217 \u2217", 
+    "\u2022 \u2022 \u2022", 
+    "\u2666 \u2666 \u2666", 
+    "\u2020 \u2020", 
+    "\u2021 \u2021 \u2021", 
+    "\u221e \u221e \u221e", 
+    "\u00a4 \u00a4 \u00a4"
+  ], 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAEWAAAAQQAAA5AAAAJ7AAABFwAAAF0AAAOPAAACegAAAAAAAAAABVY="
+  }, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "card_a_view books view state": {
+    "languages_injected": true, 
+    "last_modified_injected": true, 
+    "column_positions": {
+      "size": 4, 
+      "title": 1, 
+      "collections": 5, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "authors": 2
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "column_alignment": {
+      "size": "center", 
+      "timestamp": "center"
+    }, 
+    "hidden_columns": [], 
+    "column_sizes": {
+      "size": 51, 
+      "title": 52, 
+      "collections": 95, 
+      "timestamp": 66, 
+      "inlibrary": 86, 
+      "authors": 84
+    }
+  }, 
+  "library_usage_stats": {
+    "/media/500_GB/Calibre_Ubuntu": 5
+  }, 
+  "card_b_view books view state": {
+    "languages_injected": true, 
+    "last_modified_injected": true, 
+    "column_positions": {
+      "size": 4, 
+      "title": 1, 
+      "collections": 5, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "authors": 2
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "column_alignment": {
+      "size": "center", 
+      "timestamp": "center"
+    }, 
+    "hidden_columns": [], 
+    "column_sizes": {
+      "size": 51, 
+      "title": 52, 
+      "collections": 95, 
+      "timestamp": 66, 
+      "inlibrary": 86, 
+      "authors": 84
+    }
+  }, 
+  "job-detail-view-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAD0AAAAVgAAA7EAAAJmAAAA9QAAAHIAAAOwAAACZQAAAAAAAAAABVY="
+  }, 
+  "jobs view column layout3": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAioAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAewAAAAEAAAAAAAAAgwAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AA="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "memory_view books view state": {
+    "languages_injected": true, 
+    "last_modified_injected": true, 
+    "column_positions": {
+      "size": 4, 
+      "title": 1, 
+      "collections": 5, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "authors": 2
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "column_alignment": {
+      "size": "center", 
+      "timestamp": "center"
+    }, 
+    "hidden_columns": [], 
+    "column_sizes": {
+      "size": 51, 
+      "title": 258, 
+      "collections": 95, 
+      "timestamp": 89, 
+      "inlibrary": 86, 
+      "authors": 130
+    }
+  }, 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "grid view visible": false, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAAAAAAAGAAABVUAAAL/AAAAAQAAADQAAAUQAAAC6QAAAAACAAAABVY="
+  }, 
+  "quick_start_guide_added": true
+}

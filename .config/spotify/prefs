@@ -1,0 +1,11 @@
+app.autostart-configured=true
+storage.last-location="/home/suyash1212/.cache/spotify/Storage"
+app.autostart-mode=""
+autologin.username="ozym4nd145"
+autologin.saved_credentials="{\"ozym4nd145\":[\"ozym4nd145\",\"dOxyeikUB4GLNeBAZpb77IVmZSRR4JGwmtfkGshysDNAG55dlA2ZqF8/sdnEMzQKGzcoc9fbwTg42UPZUdY/9iwrZxzHu3r/OKBtH6AmWcGJ3YVbVWLPBYsDidAxClioTGi/ZqnnONIytVHfnglitp63LpwFDhG72pn9QAocWZs=\"]}"
+core.csrf_tokens="*.spotify.com|6c20f7ab9cda1d61d1b98d212c6896c5|723944380"
+core.clock_delta=0
+autologin.canonical_username="ozym4nd145"
+network.proxy.mode=1
+network.proxy.addr="localhost:19876@socks5"
+autologin.blob="dOxyeikUB4GLNeBAZpb77IVmZSRR4JGwmtfkGshysDNAG55dlA2ZqF8/sdnEMzQKGzcoc9fbwTg42UPZUdY/9iwrZxzHu3r/OKBtH6AmWcGJ3YVbVWLPBYsDidAxClioTGi/ZqnnONIytVHfnglitp63LpwFDhG72pn9QAocWZs="

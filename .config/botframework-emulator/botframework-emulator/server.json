@@ -1,0 +1,34 @@
+{
+  "framework": {
+    "ngrokPath": ""
+  },
+  "bots": [
+    {
+      "botId": "default-bot",
+      "botUrl": "http://localhost:3978/api/messages",
+      "msaAppId": "",
+      "msaPassword": ""
+    },
+    {
+      "botId": "6485al9nl8309c4njc",
+      "botUrl": "http://localhost:3978/",
+      "msaAppId": "",
+      "msaPassword": ""
+    }
+  ],
+  "windowState": {
+    "width": 681,
+    "height": 746,
+    "left": 2164,
+    "top": 1
+  },
+  "users": {
+    "currentUserId": "default-user",
+    "usersById": {
+      "default-user": {
+        "id": "default-user",
+        "name": "User"
+      }
+    }
+  }
+}

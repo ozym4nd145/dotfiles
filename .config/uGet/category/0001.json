@@ -1,0 +1,3282 @@
+{
+	"name": "One active",
+	"type": 1,
+	"state": 0,
+	"info": {
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 1,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"folder": "\/home\/suyash1212",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"name": "720P_1500k_74388371.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 164025421,
+					"total": 164025421,
+					"elapsed": 1499,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468355065,
+					"completed-time": 1468358917,
+					"messages": [
+					]
+				},
+				"common": {
+					"uri": "http:\/\/cdn-d-vid-public.pornhub.com\/videos\/201604\/20\/74388371\/720P_1500k_74388371.mp4?ttl=1468358586&ri=1433600&rs=1600&hash=5fca6eee12bba142d09926b13625ad80",
+					"file": "720P_1500k_74388371.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 7,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/720P_1500k_74388371.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/720P_1500k_74388371.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "720P_1500K_77562811.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 141782326,
+					"total": 141782326,
+					"elapsed": 1027,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468355099,
+					"completed-time": 1468357418,
+					"messages": [
+					]
+				},
+				"common": {
+					"uri": "http:\/\/cdn-d-vid-public.pornhub.com\/videos\/201605\/25\/77562811\/720P_1500K_77562811.mp4?ttl=1468358588&ri=1433600&rs=1600&hash=ac28a95259b0548f21d1a07142cd73af",
+					"file": "720P_1500K_77562811.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/720P_1500K_77562811.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/720P_1500K_77562811.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "720P_1500k_79022591.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 254620205,
+					"total": 254620205,
+					"elapsed": 935,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468354477,
+					"completed-time": 1468356391,
+					"messages": [
+					]
+				},
+				"common": {
+					"uri": "http:\/\/cdn-d-vid-public.pornhub.com\/videos\/201606\/08\/79022591\/720P_1500k_79022591.mp4?ttl=1468358024&ri=1843200&rs=1600&hash=420244bc32cab0842547ac16d9501282",
+					"file": "720P_1500k_79022591.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/720P_1500k_79022591.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/720P_1500k_79022591.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E11_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 79507501,
+					"total": 79507501,
+					"elapsed": 223,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1468001543,
+					"completed-time": 1468005301,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=fbea8c56870fb988&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468013463&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=CB5E94694576F2C6C46541F24FD5FD1D5EDB4B.5D9003CB1105A9D82FE4C90E024B2DCE99831FCC&key=ck2&mm=30&mn=sn-a5m7zne6&ms=nxu&mt=1467998937&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E11_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E11_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E11_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E12_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 81994918,
+					"total": 81994918,
+					"elapsed": 1059,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988439,
+					"completed-time": 1467994237,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467993179
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=55b1023df7616d59&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467997821&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=5F8CB175C2CEC888FACB78C924783791F7273056.5463FA135BDC82E0F0629716E723231992FCDA0C&key=ck2&mm=30&mn=sn-a5mekn7k&ms=nxu&mt=1467983287&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E12_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 2,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E12_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E12_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E10_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 80997159,
+					"total": 80997159,
+					"elapsed": 729,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988411,
+					"completed-time": 1467992537,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467991809
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=1ed23e5e11621d05&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467996485&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=6003F8482D2AE36A8E591C4710BF98474F777711.79DB550266552182C7301632B38B662BAE0C70BF&key=ck2&mm=30&mn=sn-a5mekn7k&ms=nxu&mt=1467981903&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E10_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E10_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E10_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E09_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 85781410,
+					"total": 85781410,
+					"elapsed": 729,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988394,
+					"completed-time": 1467991808,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467991080
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=c864b1dab0c5f54b&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467998581&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=B858DB1C2880BFC79091EF0FA4547ADF9BA92C5E.9A55E5EE3CE1CA26E966B83C85C07AC122D9BBAC&key=ck2&mm=30&mn=sn-a5m7znee&ms=nxu&mt=1467984026&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E09_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E09_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E09_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E08_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 79268890,
+					"total": 79268890,
+					"elapsed": 728,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988377,
+					"completed-time": 1467991079,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467990353
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=164540534ceaca7e&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467996476&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=9268320BDBFBF967BC647B1F142FF85B895F3186.F1C154052BE299CD5B8CA25EC38791F2D28C0F5&key=ck2&mm=30&mn=sn-a5meknel&ms=nxu&mt=1467981903&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E08_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E08_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E08_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E07_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 79657625,
+					"total": 79657625,
+					"elapsed": 729,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988363,
+					"completed-time": 1467990351,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467989623
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=b74c3ada408d7998&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468000733&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=49CF094155BB7CC006CA1B5713E76EEAE6F1D205.2CA5051B2A1BD2ACFAB12DC22F62A08952044E43&key=ck2&mm=30&mn=sn-a5mekn7d&ms=nxu&mt=1467986208&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E07_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E07_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E07_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E06_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 88031819,
+					"total": 88031819,
+					"elapsed": 729,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467988346,
+					"completed-time": 1467989622,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467988894
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=a30cee25916de10f&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1468002730&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=6351250C2CABA3653D9D123F2FCBC67223611253.131FC378F30FA6314AB39B65E968692D3FD13883&key=ck2&mm=30&mn=sn-a5mekn7d&ms=nxu&mt=1467988118&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E06_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E06_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E06_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E05_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 78353560,
+					"total": 78353560,
+					"elapsed": 572,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467986309,
+					"completed-time": 1467988893,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=9547eabc96aff77f&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467998471&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=46454A6197C403CC9F67E027E54D766DB79BCAAC.87268D3EED2402519214D7E4ED0C7885F304D85F&key=ck2&mm=30&mn=sn-a5meknes&ms=nxu&mt=1467983885&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E05_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E05_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E05_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E04_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 94237065,
+					"total": 94237065,
+					"elapsed": 732,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467986278,
+					"completed-time": 1467987743,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467987013
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=edf7fda3b5aa6ec5&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467995383&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=2945CD7A6E755EEF573C3415E685E3AB289B9E27.9613C00229616663A90E37406F97A91004FB4CC&key=ck2&mm=30&mn=sn-a5m7znez&ms=nxu&mt=1467980799&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E04_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E04_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E04_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E03_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 86478701,
+					"total": 86478701,
+					"elapsed": 789,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467986222,
+					"completed-time": 1467987011,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467986225
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=5f28aff3de128178&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467995308&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=6A3D83C2F85964B11C7E85EFAF0536B1957D338A.B0A1991F197EBBD5BB34A72AB10E952547DB9B5D&key=ck2&mm=30&mn=sn-a5m7znee&ms=nxu&mt=1467980799&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E03_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E03_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E03_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E02_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 83600497,
+					"total": 83600497,
+					"elapsed": 830,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467985612,
+					"completed-time": 1467986442,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467985620
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=b53fb8dd835ce6e0&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467994358&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=A9395D11552940472C053DC46666BC7629E97E1F.99189249E11035194E81C9DBC3AC6A816CB7FDCA&key=ck2&mm=30&mn=sn-a5mekn7d&ms=nxu&mt=1467979848&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E02_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/S01E02_Noragami.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/S01E02_Noragami",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "S01E01_Noragami",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 81583443,
+					"total": 81583443,
+					"elapsed": 811,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467985338,
+					"completed-time": 1467986150,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467985341
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "https:\/\/redirector.googlevideo.com\/videoplayback?requiressl=yes&id=a37c3a2768bcc084&itag=18&source=webdrive&ttl=transient&app=texmex&ip=2001:19f0:6000:9ad4:5400:ff:fe20:66ec&ipbits=32&expire=1467996613&sparams=requiressl,id,itag,source,ttl,ip,ipbits,expire&signature=303FE9ED4B5B521BF8168C58085425D2EC3ECD89.450F86BFA6C7161BBF2B8B95D8E6AE09B6C7D49A&key=ck2&mm=30&mn=sn-a5meknel&ms=nxu&mt=1467982065&mv=m&nh=IgpwcjAyLmxheDAyKgkxMjcuMC4wLjE&pl=38",
+					"file": "S01E01_Noragami",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/videoplayback.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/videoplayback",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec30.mp4.0",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918305,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918305
+						},
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918299
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec30.mp4",
+					"file": "lec30.mp4.0",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec30.mp4.0",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec36.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918286,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918286
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec36.mp4",
+					"file": "lec36.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec36.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec35.mp4.0",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918285,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918285
+						},
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918279
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec35.mp4",
+					"file": "lec35.mp4.0",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec35.mp4.0",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec34.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 0,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918278,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918278
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec34.mp4",
+					"file": "lec34.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec34.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec33.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918278,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918277
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec33.mp4",
+					"file": "lec33.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec33.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec32.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918277,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918277
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec32.mp4",
+					"file": "lec32.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec32.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec31.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 244,
+					"total": 244,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467918276,
+					"messages": [
+						{
+							"string": "Not Resumable",
+							"type": 2,
+							"time": 1467918276
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec31.mp4",
+					"file": "lec31.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec31.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec29.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 265214196,
+					"total": 265214196,
+					"elapsed": 3435,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467917600,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467914165
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec29.mp4",
+					"file": "lec29.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec29.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec29.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec28.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 298892277,
+					"total": 298892277,
+					"elapsed": 721,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467914165,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467913444
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec28.mp4",
+					"file": "lec28.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec28.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec28.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec27.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 269380335,
+					"total": 269380335,
+					"elapsed": 560,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467913444,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467912885
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec27.mp4",
+					"file": "lec27.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec27.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec27.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec26.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 266369586,
+					"total": 266369586,
+					"elapsed": 591,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467912884,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467912293
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec26.mp4",
+					"file": "lec26.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec26.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec26.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec25.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 296717314,
+					"total": 296717314,
+					"elapsed": 1079,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467912293,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467911220
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec25.mp4",
+					"file": "lec25.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec25.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec25.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec24.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 285773441,
+					"total": 285773441,
+					"elapsed": 593,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467911214,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467910622
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec24.mp4",
+					"file": "lec24.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec24.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec24.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec23.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 297548818,
+					"total": 297548818,
+					"elapsed": 868,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467910621,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467909753
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec23.mp4",
+					"file": "lec23.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec23.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec23.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec22.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 239967237,
+					"total": 239967237,
+					"elapsed": 497,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467909752,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467909255
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec22.mp4",
+					"file": "lec22.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec22.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec22.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec21.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 211599672,
+					"total": 211599672,
+					"elapsed": 440,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467909255,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467908816
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec21.mp4",
+					"file": "lec21.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec21.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec21.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec20.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 251313904,
+					"total": 251313904,
+					"elapsed": 801,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467908815,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467908015
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec20.mp4",
+					"file": "lec20.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec20.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec20.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec19.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 229073594,
+					"total": 229073594,
+					"elapsed": 1211,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467908014,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467906803
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec19.mp4",
+					"file": "lec19.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec19.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec19.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec18.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 307808304,
+					"total": 307808304,
+					"elapsed": 647,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467906803,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467906156
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec18.mp4",
+					"file": "lec18.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec18.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec18.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec16.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 217609479,
+					"total": 217609479,
+					"elapsed": 494,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467906156,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467905663
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec16.mp4",
+					"file": "lec16.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec16.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec16.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec15.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 246867705,
+					"total": 246867705,
+					"elapsed": 514,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467905662,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467905149
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec15.mp4",
+					"file": "lec15.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec15.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec15.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec14.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 325172289,
+					"total": 325172289,
+					"elapsed": 1232,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467905148,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903917
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec14.mp4",
+					"file": "lec14.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 1,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec14.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec14.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec13.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 249224660,
+					"total": 249224660,
+					"elapsed": 556,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467903916,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467903360
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec13.mp4",
+					"file": "lec13.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec13.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec13.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec12.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 309233620,
+					"total": 309233620,
+					"elapsed": 663,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467903360,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467902697
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec12.mp4",
+					"file": "lec12.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec12.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec12.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec11.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 274448925,
+					"total": 274448925,
+					"elapsed": 602,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467902697,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467902096
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec11.mp4",
+					"file": "lec11.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec11.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec11.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec10.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 300197689,
+					"total": 300197689,
+					"elapsed": 715,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467902095,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1467901380
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec10.mp4",
+					"file": "lec10.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec10.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec10.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec09.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 295089479,
+					"total": 295089479,
+					"elapsed": 624,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467901380,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec09.mp4",
+					"file": "lec09.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec09.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec09.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec08.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 281598888,
+					"total": 281598888,
+					"elapsed": 563,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467900756,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec08.mp4",
+					"file": "lec08.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec08.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec08.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec07.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 260845396,
+					"total": 260845396,
+					"elapsed": 514,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467900193,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec07.mp4",
+					"file": "lec07.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec07.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec07.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec06.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 216109101,
+					"total": 216109101,
+					"elapsed": 434,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467897205,
+					"completed-time": 1467899679,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec06.mp4",
+					"file": "lec06.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec06.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec06.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "lec05.mp4",
+			"type": 2,
+			"state": 72,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 2
+					}
+				},
+				"progress": {
+					"complete": 303871927,
+					"total": 303871927,
+					"elapsed": 518,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1467896776,
+					"completed-time": 1467899245,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/npteldownloads.iitm.ac.in\/downloads_mp4\/106102064\/lec05.mp4",
+					"file": "lec05.mp4",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+				{
+					"name": "\/home\/suyash1212\/lec05.mp4.aria2",
+					"type": 5,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				},
+				{
+					"name": "\/home\/suyash1212\/lec05.mp4",
+					"type": 0,
+					"state": 0,
+					"info": {
+					},
+					"children": [
+					]
+				}
+			]
+		},
+		{
+			"name": "720P_1500K_82359601.mp4",
+			"type": 2,
+			"state": 128,
+			"info": {
+				"relation": {
+					"task": {
+						"plugin-name": "curl",
+						"priority": 1
+					}
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 31,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1469791720,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"uri": "http:\/\/ic.671b082a.077e0c.6.c3605.d.rncdn3.com\/videos\/201607\/15\/82359601\/720P_1500K_82359601.mp4?ipa=103.27.8.42&rs=161&ri=1800&s=1469788042&e=1469795242&h=b3a399a207146a108f488fb1a79707ff&ms=2.9",
+					"folder": "\/home\/suyash1212",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 5,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

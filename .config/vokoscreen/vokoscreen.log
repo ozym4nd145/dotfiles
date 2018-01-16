@@ -1,0 +1,6 @@
+vokoscreen Version: 1.9.0
+Record resolution: 934x537
+Alsa string: -f alsa -i pulse 
+Qt Version: 4.8.6
+avconv Version: 9.20-6:9.20-0ubuntu0.14.04.2+fdkaac
+Record String: avconv -f alsa -i pulse -f x11grab -r 25 -s 934x537 -i :0.0+22,137 -pix_fmt yuv420p -vcodec mpeg4 -acodec libmp3lame -ar 48000 -qscale 1 -r 25 /home/suyash1212/ScreenRecorder/vokoscreen-2017-09-07_15-10-49.mkv

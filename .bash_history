@@ -1537,3 +1537,512 @@ make
 configure
 ls
 make clean
+cd ..
+ls
+sudo ./Impactor
+ls
+cd source/cydia/
+ls
+./configure
+ls
+make
+vim compiling.txt 
+cd ..
+rm -rf source/
+ls
+python
+python3
+cd
+cd Coding/
+ls
+git clone --depth=1 https://github.com/torvalds/linux.git
+cd 4/
+mkdir 0
+rmdir 0
+cp -r 1/ 0
+vim 0/result.txt 
+rm -rf dir1/*
+rm -rf dir2/*
+cp -r 0/ 8
+cd 8
+touch .hidden.txt
+mkdir .empty
+mkdir .in
+touch .in/1.txt
+touch .in/.1.txt
+tree .
+tree -lha .
+vim ../result.txt 
+cd 8/
+vim
+cd 2/
+vim samle.sh
+mv samle.sh sample.sh
+chmod +x sample.sh 
+./sample.sh 1/dir1/ 1/dir2/
+./sample.sh 1/dir1/ 1/dir2
+cd 1/
+cd dir2/
+rm 1.txt 
+cd dir1/
+mkdir backup
+cp * backup/
+cp -r * backup/
+cd backup/
+rm sample.sh 
+./sample.sh 0/dir1 0/dir2
+./sample.sh 0/dir1/ 0/dir2/
+cd 0/dir2/
+ls -lh
+cd 0/
+vim result.txt 
+vim sample.sh 
+ssh tryst@tryst-iitd.com -L 9876:localhost:27017
+mongod --dbpath=./data
+vim
+xkill
+ifconfig
+man ssh
+node
+manga
+nohup ./Postman &
+cd -
+xkill
+ifconfig
+man ssh
+node
+manga
+xbacklight -set 5
+xbacklight -set 3
+xbacklight -set 1
+cd Project/Tryst2018/
+vim controllers/eventController.js 
+vim controllers/userController.js 
+screen -ls
+screen
+nohup ./Postman &
+cd -
+vim controllers/userController.js 
+vim controllers/eventController.js 
+git add .
+git commit -m "Modified Event api to return object in case of creation and updation"
+git push
+ssh trsyt@tryst-iitd.com
+ssh tryst@tryst-iitd.com
+source ignore/env.sh 
+nodemon .
+mongod --dbpath=./data
+screen -ls
+screen -r
+screen -ls
+screen -r
+nodemon .
+cloc .
+cloc ./controllers/ ./models/ ./config/ ./server.js ./utils.js 
+cloc ./controllers/ ./models/ ./config/ ./server.js ./utils.js  ./mailers/
+cd Software/Postman/
+nohup ./Postman &
+cd Software/Postman/
+cd Software/
+cd Postman/
+nohup ./Postman &
+cd -
+cd -
+node
+. ./ignore/env.sh
+screen -r
+screen -ls
+screen -r
+cloc .
+cloc ./controllers/ ./models/ ./config/ ./server.js ./utils.js 
+cloc ./controllers/ ./models/ ./config/ ./server.js ./utils.js  ./mailers/
+cd Software/Postman/
+nohup ./Postman &
+rm -rf main/
+git staut
+git diff server.js
+git add .
+git commit -m "Sending description in event fetch"
+git push
+ssh tryst@tryst-iitd.com
+source ignore/env.sh 
+nodemon .
+nodemon .
+screen -ls
+screen -r
+mongod --dbpath=./data
+df -h
+git commit -m "Modified Event api to return object in case of creation and updation"
+git push
+ssh trsyt@tryst-iitd.com
+ssh tryst@tryst-iitd.com
+source ignore/env.sh 
+nodemon .
+mongod --dbpath=./data
+screen -r
+cd Coding/Project/Tryst2018/
+mkdir main
+cd main/
+git clone https://github.com/Tryst18/FrontendDevelopment.git
+mv FrontendDevelopment/app/* ./
+rm -rf FrontendDevelopment/
+screen -ls
+screen
+cd Coding/Project/Tryst
+cd Coding/Project/Tryst
+. ./ignore/env.sh 
+node
+git add .
+git commit -m "Added the scandalous temp bulk mail api"
+git push
+ssh tryst@tryst-iitd.com
+. ./ignore/env.sh 
+nodemon .
+mongod --dbpath=./data
+cd Coding/Project/Tryst
+cd Coding/Project/Tryst2018/
+screen
+cd /tmp
+cd $BIG
+cd Important/
+mkdir oz_drive
+rclone mount oz_drive: ./oz_drive/
+rm -rf oz_drive/
+cd IITD/Sem6/
+rclone
+rclone sync ./Sem6 oz_drive:IITD/Sem6
+cd COL774/
+cd brownboard.api.v1/
+git pull
+docker image ls
+docker ps
+docker stop 52dbc3aae142
+docker rm 52dbc3aae142
+git status
+npm install
+npm start
+cd toptotal/
+code .
+lb model
+tree
+lb relation
+rm -rf toptotal/
+cd /media/500_GB/Important/IITD/Sem6/
+cd naveen/
+mv Lectures/ Notes
+vim links.txt
+wget ./links.txt
+man wget
+wget -i ./links.txt
+rm links.txt 
+rclone sync --dry-run ./Sem6 oz_drive:IITD/Sem6
+rclone sync -v oz_drive:IITD/Sem6 ./Sem6
+l
+cd MTL103/
+mkdir Professors
+mkdir vikassingh
+cd vikassingh/
+mkdir Tutorial
+cd Tutorial/
+mv /media/500_GB/Ubuntu/Downloads/MTL_103_tut1.pdf 
+mv /media/500_GB/Ubuntu/Downloads/MTL_103_tut1.pdf ./
+mv Tutorial/ Tutorials
+cd Sem6/
+cd COL380/
+cd svs/
+mkdir Tutorials
+cd Tutorials/
+wget http://www.cse.iitd.ac.in/~svs/COL_380_files/count3s-v1.c
+gcc count3s-v1.c 
+gcc -lpthread -fopenmp count3s-v1.c 
+./a.out
+./a.out s
+./a.out p
+vim count3s-v1.c 
+cd ../../../..
+cd COL352/
+cd COL331/
+cd Professors/
+mkdir srsarangi
+cd srsarangi/
+mv /media/500_GB/Ubuntu/Downloads/PDF-dir.zip ./
+unzip PDF-dir.zip 
+rm -rf PDF-dir.zip 
+mv PDF-dir/* ./
+rm -rf PDF-dir/
+cd ../..
+cd Sem6/COL380/Professors/svs/
+mv Lectures Notes
+mkdir Lectures
+cd Lectures/
+wget https://moodle.iitd.ac.in/mod/resource/view.php?id=16741
+mv /media/500_GB/Ubuntu/Downloads/lec4.pptx /media/500_GB/Ubuntu/Downloads/lec2\(1\).pptx ./
+mv lec2\(1\).pptx lec2.pptx
+libreoffice --headless --invisible --convert-to pdf *.ppt  
+open lec2.pptx 
+open lec4.pptx 
+libreoffice --headless --invisible --convert-to pdf *.ppt
+libreoffice --headless --invisible --convert-to pdf *.pptx
+okular lec4.pdf 
+cd ../../..
+rclone sync -v ./Sem6 oz_drive:IITD/Sem6
+cd 
+cd Coding/
+cd Assignment/
+cd COL331_OS/
+cd experiment/
+lx
+s
+vim hello.asm
+nasm hello.asm 
+chmod +x hello
+./hello
+ld -s -o hello hello.o 
+lsA
+vim hello.asm 
+nasm -f elf hello.asm 
+nasm -f elf64 hello.asm 
+ld -s -o hello hello.o
+./hello 
+rm hello hello.o 
+$DEVCLUB
+sudo pm-suspend
+cd Coding/Node/Loopback/
+lb
+cd first-loop/
+sl
+cd
+ls -l
+ls -la
+rseet
+reset
+cd Coding/Project/
+cd ..
+cd Node/
+cd Loopback/
+cd coffeeshop/
+mongod
+sudo service mongod status
+mkdir data
+vim server/config.json 
+tmux -v
+tmux -h
+tmux --help
+tmux
+tmux --version
+man tmmux
+tmux -V
+tmux a
+man tmux
+tmux -u a
+ls
+tmux -u
+ls
+cd Coding/linux/
+ls
+cd Documentation/
+ls
+exec su -l $USER
+vim 00-INDEX 
+s
+mongod --dbpath=./data
+cd Coding/Project/Tryst
+cd Coding/Project/Tryst2018/
+screen
+cd Software/Postman/
+nohup ./Postman &
+htop
+df -h 
+sudo adduser $USER vboxusers
+sudo apt-get remove virtualbox
+cd
+cd Software/
+mv /media/500_GB/Ubuntu/Downloads/virtualbox-5.2_5.2.6-120293-Ubuntu-trusty_amd64.deb ./
+whereis virtualbox
+sudo apt-get remove virtualbox*
+mv /media/500_GB/Ubuntu/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack ./
+sudo apt-cache search virtual
+sudo apt-get remove virtualbox-*
+sudo apt-get remove virtualbox-4.2
+sudo apt-get remove virtualbox-5.2
+sudo apt-get remove virtualbox-5.1
+ls
+rm virtualbox-5.2_5.2.6-120293-Ubuntu-trusty_amd64.deb 
+mv /media/500_GB/Ubuntu/Downloads/virtualbox-5.2_5.2.4-119785~Ubuntu~trusty_amd64.deb ./
+sudo dpkg -i virtualbox-5.2_5.2.4-119785~Ubuntu~trusty_amd64.deb 
+sudo VBoxManage extpack install --replace ./Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack 
+sudo VBoxManage list extpacks
+ls
+cd 
+cd $DWN
+ls
+cd ../../IPad/
+ls
+scp -r ./* cs1150262@palasi.cse.iitd.ac.in:~/public_html
+$GCL
+ls
+mv GoodNotes\ 4\ \[Time\ Base\ Technology\ Limited\]\ \(v4.12.11\ v4.12.11.2\ Univ\ os80\)-Ghay.rc336_91.ipa goodnotes4.ipa
+mv net.whatsapp.WhatsApp_2.17.82.ipa whatsapp.ipa
+ls
+cd ..
+ls
+cd
+ls
+rm lec1.pdf 
+ls
+rm nohup.out 
+vim case.txt 
+rm case.txt 
+ls
+vim login_output.log 
+rm login_output.log 
+ls
+cd logs/
+ls
+vim backup.log 
+cd
+cd $BIG
+ls
+cd Important/
+ls
+cd ..
+cd Backup/
+ls
+cd dotfiles/
+ls
+ls -l
+ls -la
+vim .bashrc 
+git status
+git add .
+git commit -m "Added the new dotfiles"
+git push
+ls
+cd ..
+ls
+cd bin/
+ls
+cd ..
+ls
+cd sys_config/
+ls
+cd ..
+ls
+cd
+cd ~/.config/terminator/
+ls
+cd con
+cd config
+vim config 
+ls
+cd ..
+ls -la
+ls
+cd terminator/
+ls -la
+cd ..
+ls
+vim bin/backup.sh 
+ls
+cd /media/500_GB/Backup/
+ls
+cd dotfiles/
+ls
+cd .config/
+ls
+cd
+cd .config/
+ls
+cd ..
+vim ~/bin/backup.sh 
+ls
+cd Coding/
+ls
+cd Scripts/
+ls
+vim backup.sh 
+cd ..
+ls
+crontab -u suyash1212 -l
+vim ~/bin/owncloud.sh 
+cd ~/bin
+ls
+ls -la
+man rsync
+vim backup.sh 
+cp backup.sh ~/Coding/Scripts/
+ls
+rm backup.sh 
+ln -s ~/Coding/Scripts/backup.sh ./backup.sh 
+ls
+ls -l
+ls
+vim backup.sh 
+du -h --max-depth=1 ../.config
+ls
+rsync -r -t -o -v --progress --modify-window=1 --max-size='2MB' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync -r -t -o -v --dry-run --progress --modify-window=1 --max-size='2MB' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+du -h --max-depth=1 .config
+#rsync -r -t -o -v --progress --modify-window=1 --max-size='2MB' --exclude='google-chrome sublime-text-3 Code Atom libreoffice' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --max-size='2MB' --exclude='google-chrome sublime-text-3 Code Atom libreoffice' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+reset
+man rsync
+ls
+vim ~/Coding/Scripts/exclude_list.txt
+ln -s ~/Coding/Scripts/exclude_list.txt ~/bin/exclude_list.txt
+cd ~/bin
+ls
+vim exclude_list.txt 
+#rsync -r -t -o -v --progress --modify-window=1 --max-size='2MB' --exclude_from='~/bin/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --max-size='2MB' --exclude_from='~/bin/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --exclude_from='~/bin/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --exclude-from='~/bin/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+vim ~/bin/exclude_list.txt 
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --exclude-from='~/Coding/Scripts/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --exclude-from='/home/suyash1212/Coding/Scripts/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+rsync --dry-run -r -t -o -v --progress --modify-window=1 --exclude-from='/home/suyash1212/bin/exclude_list.txt' -s /home/suyash1212/.config /media/suyash1212/Suyash_1TB/Backup/dotfiles
+vim ~/bin/backup.sh 
+ls
+./backup.sh 
+cd $BIG/
+ls
+cd Backup/
+ls
+cd
+ls
+echo $BIG
+vim ~/bin/backup.sh 
+cd $BIG
+ls
+crontab -e
+crontab -l
+vim ~/.config/terminator/config 
+ls
+$DEVCLUB
+$AWS
+cd Coding/Assignment/COL331_OS/
+cd experiment/
+lss
+ls
+man tmux
+tmux ls
+tmux attach 3
+ls
+cd experiment/
+ls
+mkdir fork
+cd fork/
+ls
+du -h --max-depth=0 ./Backup/
+vim 1.c
+mv 1.c 1.cpp
+ls
+g++ 1.cpp 
+./a.out
+vim 1.cpp 
+ls
+vim 2.cpp
+g++ 2.cpp 
+vim 2.cpp
+g++ 2.cpp 
+./a.out

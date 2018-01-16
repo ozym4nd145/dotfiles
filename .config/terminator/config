@@ -1,0 +1,60 @@
+[global_config]
+  enabled_plugins = ,
+  focus = system
+  borderless = True
+  title_transmit_bg_color = "#CC342B"
+  inactive_color_offset = 0.4
+  title_inactive_bg_color = "#969896"
+[keybindings]
+  reset = None
+  edit_window_title = <Primary><Shift>r
+[profiles]
+  [[backup]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    alternate_screen_scroll = False
+    background_image = None
+    audible_bell = True
+    cursor_shape = ibeam
+    use_system_font = False
+    cursor_color = "#c5c8c6"
+    foreground_color = "#00db88"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Source Code Pro for Powerline Medium 12
+    scrollback_infinite = True
+  [[default]]
+    palette = "#252525:#ff5252:#c3d82c:#ffc135:#42a5f5:#d81b60:#00acc1:#f5f5f5:#002b36:#ff5252:#c3d82c:#ffc135:#42a5f5:#d81b60:#00acc1:#f5f5f5"
+    background_image = None
+    background_darkness = 0.8
+    cursor_shape = ibeam
+    use_system_font = False
+    cursor_color = "#ff5252"
+    foreground_color = "#a1b0b8"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Source Code Pro for Powerline Medium 13
+    background_color = "#151515"
+    scrollback_infinite = True
+  [[solarized]]
+    use_system_font = False
+    alternate_screen_scroll = False
+    cursor_shape = ibeam
+    background_image = None
+    foreground_color = "#839496"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Source Code Pro for Powerline Medium 12
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[Quake]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Base16 Google Dark
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

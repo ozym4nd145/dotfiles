@@ -1,0 +1,17 @@
+VirtualBox GUI VM Selector Window 5.2.4 r119785 linux.amd64 (Dec 19 2017 08:24:32) release log
+00:00:04.704197 Log opened 2018-01-16T17:37:31.071954000Z
+00:00:04.704198 Build Type: release
+00:00:04.704200 OS Product: Linux
+00:00:04.704201 OS Release: 3.16.0-77-generic
+00:00:04.704201 OS Version: #99~14.04.1-Ubuntu SMP Tue Jun 28 19:17:10 UTC 2016
+00:00:04.704220 DMI Product Name: Inspiron 3543
+00:00:04.704225 DMI Product Version: A08
+00:00:04.704307 Host RAM: 7896MB (7.7GB) total, 6288MB (6.1GB) available
+00:00:04.704310 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:04.704311 Process ID: 8184
+00:00:04.704312 Package type: LINUX_64BITS_UBUNTU_14_04
+00:00:04.704330 Qt version: 5.6.1
+00:00:04.720892 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.823492 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.833636 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 683x748
+00:09:23.599819 GUI: UIMediumEnumerator: Medium-enumeration finished!

@@ -1,0 +1,13 @@
+﻿<settings>
+  <setting name="default-image-type" type="System.String">jpg</setting>
+  <setting name="window-size-width" type="System.Int32">679</setting>
+  <setting name="window-size-height" type="System.Int32">722</setting>
+  <setting name="ruler-metric" type="System.Int32">0</setting>
+  <setting name="window-maximized" type="System.Boolean">False</setting>
+  <setting name="ruler-shown" type="System.Boolean">False</setting>
+  <setting name="toolbar-shown" type="System.Boolean">True</setting>
+  <setting name="pixel-grid-shown" type="System.Boolean">False</setting>
+  <setting name="last-dialog-directory" type="System.String">/home/suyash1212/Coding/ML_Coursera/ex4/ex4</setting>
+  <setting name="new-image-width" type="System.Int32">208</setting>
+  <setting name="new-image-height" type="System.Int32">277</setting>
+</settings>

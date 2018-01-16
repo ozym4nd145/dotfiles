@@ -1,0 +1,6 @@
+vokoscreen Version: 1.9.0
+Record resolution: 1364x723
+Alsa string: 
+Qt Version: 4.8.6
+avconv Version: 9.20-6:9.20-0ubuntu0.14.04.2+fdkaac
+Record String: avconv -f x11grab -r 25 -s 1364x723 -i :0.0+2,24 -pix_fmt yuv420p -vcodec mpeg4 -ar 48000 -qscale 1 -r 25 /home/suyash1212/ScreenRecorder/vokoscreen-2017-08-26_15-19-02.mkv
